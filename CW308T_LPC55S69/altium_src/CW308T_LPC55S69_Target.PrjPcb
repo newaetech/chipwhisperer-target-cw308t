@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for CW308T_LPC55S69_Target
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -187,16 +187,20 @@ DocumentPath=Project Outputs for CW308T_LPC55S69_Target\Design Rule Check - CW30
 DItemRevisionGUID=
 
 [Parameter1]
-Name=PrjLicense
-Value=<Select License>
+Name=
+Value=
 
 [Parameter2]
-Name=PrjName
-Value=<Enter Project Name>
+Name=PrjRev
+Value=01
 
 [Parameter3]
-Name=PrjRev
-Value=00
+Name=PrjName
+Value=LPC55S69 Target
+
+[Parameter4]
+Name=PrjLicense
+Value=GPL
 
 [Configuration1]
 Name=Default Configuration
@@ -207,6 +211,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=
 ConfigurationType=
+
+[Generic_EDE]
+OutputDir=Project Outputs for CW308T_LPC55S69_Target
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -317,7 +324,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=Canon MF220 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -791,6 +798,36 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=HyperLynx
+OutputName11=HyperLynx (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Orcad v7 Capture Design
+OutputName12=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=P-CAD ASCII
+OutputName13=P-CAD ASCII (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=P-CAD V16 Schematic Design
+OutputName14=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=SiSoft
+OutputName15=SiSoft (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
