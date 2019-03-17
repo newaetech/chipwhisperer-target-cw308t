@@ -1,7 +1,8 @@
 # ChipWhisperer CW308 Targets #
 
-These are targets for the CW308 UFO Board. The CW308 UFO board supplies power, clock, programming headers etc:
+These are targets for the CW308 UFO Board. This repo contains gerbers, schematics, and source files (in Altium Designer format). The CW308 UFO board supplies power, clock, programming headers etc:
 
+![](doc/cw308_top.png)
 
 Many of these boards can be purchased assembled via Mouser Electronics.
 
@@ -48,7 +49,7 @@ The STM32Fx boards, XMEGA, and AVR boards can all be programmed from the ChipWhi
 
 --
 
-**Q:** Why are these boards so expensive when there is nothing on it? I can but a dev-kit with JTAG and everything for the cost of some of these boards!
+**Q:** Why are these boards so expensive when there is nothing on it? I can buy a dev-kit with JTAG and everything for the cost of some of these boards!
 
-**A:** Dev-boards have low cost as are produced in huge quantity and minimal profit margin. Due to the unique nature of these boards we typically are producing QTY 25-200 per "run", and many of the ICs alone are rather expensive at that point. For example a STM32F407 @ Qty 40 is $12 USD, and the "discovery" board with that chip mounted is only $20!
+**A:** Dev-boards have low cost as are produced in huge quantity and minimal profit margin. Due to the unique nature of our boards we typically are producing QTY 25-200 per "run", and many of the ICs alone are rather expensive at that point. For example a STM32F407 @ Qty 40 is $12 USD, and the "discovery" board with that chip mounted is only $20!
 
