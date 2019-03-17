@@ -2,11 +2,13 @@
 
 ![](doc/esp32.jpg) ![](doc/s6lx9.jpg) ![](doc/stm32.jpg)
 
-These are targets for the CW308 UFO Board. This repo contains gerbers, schematics, and source files (in Altium Designer format). The CW308 UFO board supplies power, clock, programming headers etc:
+These are *targets* for the CW308 UFO Board. This repo contains gerbers, schematics, and source files (in Altium Designer format). The CW308 UFO board is required for use (not part of this repo) as it supplies power, clock, programming headers etc:
 
 ![](doc/cw308_top.png)
 
-Many of these boards can be purchased assembled via Mouser Electronics.
+Many of these target boards (along with UFO baseboard) can be purchased assembled via Mouser Electronics. Note all targets are available however, so if you want some of the latest targets you may need to build one.
+
+The documentation for these are mostly held on [http://wiki.newae.com](http://wiki.newae.com) .
 
 Most (all?) of these boards support the ChipWhisperer example applications. That means a basic HAL is provided in chipwhisperer/hardware/victims/firmware/hal . Some of the more unique boards do not build as part of that system due to complexity of porting (i.e., ESP32).
 
