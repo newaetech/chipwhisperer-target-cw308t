@@ -1,5 +1,7 @@
 # ChipWhisperer CW308 Targets #
 
+![](doc/esp32.jpg) ![](doc/s6lx9.jpg) ![](doc/stm32.jpg)
+
 These are targets for the CW308 UFO Board. This repo contains gerbers, schematics, and source files (in Altium Designer format). The CW308 UFO board supplies power, clock, programming headers etc:
 
 ![](doc/cw308_top.png)
