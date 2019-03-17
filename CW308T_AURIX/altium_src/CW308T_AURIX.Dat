@@ -1,0 +1,24 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~CW308T_AURIX.PrjPcb|ReportField=ProjectFullPath~C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\git_repos\CW308T\CW308T_AURIX\CW308T_AURIX.PrjPcb|ReportField=Title~Bill of Materials For Schematic Document [CW308T_AURIX.SchDoc]|ReportField=ReportTime~5:35:46 PM|ReportField=ReportDate~15/08/2018|ReportField=ReportDateTime~15/08/2018 5:35:46 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~23|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=Address1~1083 Queen St., Suite 196|ReportField=Address2~Halifax|ReportField=Address3~NS|ReportField=Address4~Canada B3H 0B2|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~15/08/2018|ReportField=CurrentTime~5:35:43 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\git_repos\CW308T\CW308T_AURIX\CW308T_AURIX.SchDoc|ReportField=DocumentName~CW308T_AURIX.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~10/08/2018|ReportField=Organization~NewAE Technology Inc.|ReportField=ProjectName~CW308T_AURIX.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetApproved~NO|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~Aurix Target Board|ReportField=PrjLicense~|ReportField=PrjName~Aurix Target|ReportField=PrjRev~01|ReportField=DataSourceFileName~CW308T_AURIX.SchDoc|ReportField=DataSourceFullPath~C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\git_repos\CW308T\CW308T_AURIX\CW308T_AURIX.SchDoc|ReportField=PCBConfigurationName~Default Configuration|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|2u2|2u2, 0603|C1|CAPC0603_M|CCHIP-2u2-0603|1
+2|2u2|2u2, 0603|C2|CAPC0603_M|CCHIP-2u2-0603|1
+3|2u2|2u2, 0603|C3|CAPC0603_M|CCHIP-2u2-0603|1
+4|2u2|2u2, 0603|C4|CAPC0603_M|CCHIP-2u2-0603|1
+5|2u2|2u2, 0603|C5|CAPC0603_M|CCHIP-2u2-0603|1
+6|100n|100n, 0603|C6|CAPC0603_M|CCHIP-100n-0603|1
+7|100n|100n, 0603|C7|CAPC0603_M|CCHIP-100n-0603|1
+8|100n|100n, 0603|C8|CAPC0603_M|CCHIP-100n-0603|1
+9|100n|100n, 0603|C9|CAPC0603_M|CCHIP-100n-0603|1
+10|100n|100n, 0603|C10|CAPC0603_M|CCHIP-100n-0603|1
+11|100n|100n, 0603|C11|CAPC0603_M|CCHIP-100n-0603|1
+12|2u2|2u2, 0603|C12|CAPC0603_M|CCHIP-2u2-0603|1
+13|2u2|2u2, 0603|C13|CAPC0603_M|CCHIP-2u2-0603|1
+14|2u2|2u2, 0603|C14|CAPC0603_M|CCHIP-2u2-0603|1
+15|CW308_TARGETCON|CW308 "Standard" Target Board Connector|J1|CW308_TBOARD_CONN|CW308_TBOARD|1
+16|560R|560R res, 0603, 1%, 1/10W|R1|RESC1608X55N|RCHIP-560R-0603|1
+17|22R|22R res, 0603, 1%, 1/10W|R2|RESC1608X55N|RCHIP-22R-0603|1
+18|22R|22R res, 0603, 1%, 1/10W|R3|RESC1608X55N|RCHIP-22R-0603|1
+19|10R|10R res, 0603, 1%, 1/10W|R4|RESC1608X55N|RCHIP-10R-0603|1
+20|10k|10k res, 0603, 1%, 1/10W|R5|RESC1608X55N|RCHIP-10K-0603|1
+21|10k|10k res, 0603, 1%, 1/10W|R6|RESC1608X55N|RCHIP-10K-0603|1
+22|TC233LP|IC MCU 32BIT 2MB FLASH 100TQFP|U1|PG-TQFP-100-23|TC233LP|1
+23|LD1117SC-R||U2||LD1117SC-R|1

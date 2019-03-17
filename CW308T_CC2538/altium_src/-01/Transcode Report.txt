@@ -1,0 +1,12 @@
+
+
+   ---- Transcoding 'C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\git_repos\CW308T\CW308T_CC2538\NAE-CW308T-CC2538\-01\CW308T_CC2538_PANEL.GTP' ----   Thu Oct 12 16:32:27 2017
+
+D11   --> D100
+D12   --> D101
+D13   --> D102
+D17   --> D103
+D18   --> D104
+D19   --> D105
+D20   --> D106
+-----------------------------------------------------------------

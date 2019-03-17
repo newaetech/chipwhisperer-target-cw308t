@@ -1,0 +1,55 @@
+Altium Designer Pick and Place Locations
+C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\git_repos\CW308T\CW308T_87C51\OUTPUT\FILES\Pick Place\Pick Place for CW308T_87C51.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       14/03/17
+Time:       16:03
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment             Layer       Footprint             Center-X(mil) Center-Y(mil) Rotation Description                                                                                                               
+X1         ABMM2-8.000MHZ-E2-T BottomLayer ABRA-ABMM2-4_V        3369.000      3554.000      360      Ceramic Surface Mount Low Profile Quartz Crystal, 8 MHz, -20 to 70 degC, 4-Pin 6 x 3.6 x 1.2 mm SMD, RoHS, 1000pcs / Reel 
+C7         27p                 BottomLayer CAPC1608X90N          3455.000      3445.000      180      Capacitor SMD Cer 27pF 1% 100V NP0 0603                                                                                   
+C6         27p                 BottomLayer CAPC1608X90N          3353.000      3669.000      180      Capacitor SMD Cer 27pF 1% 100V NP0 0603                                                                                   
+J2         68000-203HLF        TopLayer    SMTC-TSW-103-07-X-S   4540.000      4460.000      180                                                                                                                                
+J1         68000-203HLF        TopLayer    SMTC-TSW-103-07-X-S   4040.000      4460.000      180                                                                                                                                
+J9         20-Pin Header       TopLayer    801-87-020-10-001101  3150.000      2750.000      0        1x20 Header, Machined                                                                                                     
+J8         20-Pin Header       TopLayer    801-87-020-10-001101  4550.000      2750.000      0        1x20 Header, Machined                                                                                                     
+R1         Thick Film          BottomLayer RESC1608X55N          4409.449      3602.362      360      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+R6         Thick Film          BottomLayer RESC1608X55N          4409.449      3503.938      360      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+R9         Thick Film          BottomLayer RESC1608X55N          4409.449      3405.512      360      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+R7         Thick Film          BottomLayer RESC1608X55N          4409.449      3208.662      360      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+R2         Thick Film          BottomLayer RESC1608X55N          4409.449      3307.086      360      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+R10        Thick Film          BottomLayer RESC1608X55N          4409.449      3110.236      360      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+R8         Thick Film          BottomLayer RESC1608X55N          4409.449      2913.386      360      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+R3         Thick Film          BottomLayer RESC1608X55N          4409.449      3011.812      360      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+U1         87C51               TopLayer    PLCC44_SOCKET         3850.000      2750.000      0                                                                                                                                  
+J10        CW308_TARGETCON     TopLayer    CW308_TBOARD_CONN     3850.000      2750.000      0        CW308 "Standard" Target Board Connector                                                                                   
+J3         68000-203HLF        TopLayer    SMTC-TSW-103-07-X-S   3560.000      4460.000      180                                                                                                                                
+J4         68000-203HLF        TopLayer    SMTC-TSW-103-07-X-S   3100.000      4460.000      180                                                                                                                                
+J5         68000-203HLF        TopLayer    SMTC-TSW-103-07-X-S   3560.000      4160.000      180                                                                                                                                
+J6         68000-203HLF        TopLayer    SMTC-TSW-103-07-X-S   3100.000      4160.000      180                                                                                                                                
+J7         68000-203HLF        TopLayer    SMTC-TSW-103-07-X-S   4040.000      4160.000      180                                                                                                                                
+R4         Thick Film          BottomLayer RESC1608X55N          3966.535      4560.000      360      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+R5         Thick Film          BottomLayer RESC1608X55N          3960.000      4280.000      180      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+R11        Thick Film          BottomLayer RESC1608X55N          3820.000      2760.000      270      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+R12        Thick Film          BottomLayer RESC1608X55N          3806.535      3700.000      180      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+C1         approved sub OK     BottomLayer CAPC1608X90N          3994.000      3351.000      90       Capacitor SMD Cer 100nF 10% 50V X7R 0603                                                                                  
+C2         approved sub OK     BottomLayer CAPC1608X90N          3930.000      3352.000      90       Capacitor SMD Cer 100nF 10% 50V X7R 0603                                                                                  
+C3         approved sub OK     BottomLayer CAPC1608X90N          3998.000      2843.000      90       Capacitor SMD Cer 100nF 10% 50V X7R 0603                                                                                  
+C4         approved sub OK     BottomLayer CAPC1608X90N          3740.000      2760.000      90       Capacitor SMD Cer 100nF 10% 50V X7R 0603                                                                                  
+C5         approved sub OK     BottomLayer CAPC1608X90N          3800.000      3560.000      180      Capacitor SMD Cer 100nF 10% 50V X7R 0603                                                                                  
+J11        68000-203HLF        TopLayer    SMTC-TSW-103-07-X-S   4200.000      1900.000      180                                                                                                                                
+R13        Thick Film          BottomLayer RESC1608X55N          3980.000      3240.000      180      Resistor SMD chip 51 Ohm 0.1W 1% 0603                                                                                     
+R14        Thick Film          BottomLayer RESC1608X55N          3020.000      3453.465      90       Resistor SMD chip 51 Ohm 0.1W 1% 0603                                                                                     
+R15        Thick Film          BottomLayer RESC1608X55N          4674.000      2023.000      90       Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+R16        Thick Film          BottomLayer RESC1608X55N          4676.000      1888.000      90       Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+J12        DW-02-16-G-S-200    TopLayer    SMTC-DW-02-16-X-S-200 3333.000      3313.000      270                                                                                                                                
+R17        Thick Film          BottomLayer RESC1608X55N          3296.000      2444.000      360      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+R18        Thick Film          BottomLayer RESC1608X55N          3298.000      2552.000      360      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+R19        Thick Film          BottomLayer RESC1608X55N          3294.000      2313.000      180      Resistor SMD chip 10k Ohm 0.1W 1% 0603                                                                                    
+U3         ATmega325PA-AU      TopLayer    64A_L                 3822.835      3649.606      270      8-bit AVR Microcontroller, 1.5-5.5V, 32KB Flash, 1KB EEPROM, 2KB SRAM, 64-pin TQFP, Industrial Grade (-40°C to 85°C)      
+C8         approved sub OK     BottomLayer CAPC1608X90N          3992.126      3633.858      90       Capacitor SMD Cer 100nF 10% 50V X7R 0603                                                                                  

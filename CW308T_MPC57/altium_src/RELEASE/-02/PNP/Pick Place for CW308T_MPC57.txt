@@ -1,0 +1,89 @@
+Altium Designer Pick and Place Locations
+C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\git_repos\CW308T\CW308T_MPC57\altium_pcbproject\OUTPUT\FILES\Pick Place\Pick Place for CW308T_MPC57.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       11/03/17
+Time:       18:22
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment              Layer       Footprint                      Center-X(mil) Center-Y(mil) Rotation Description                                                                                       
+J4         HMTSW-104-23-L-S-237 TopLayer    SMTC-HMTSW-104-23-X-S-237      3601.575      1604.331      360                                                                                                        
+R25        10k                  TopLayer    RESC1608X55N                   3021.653      2696.850      180      10k res, 0603, 1%, 1/10W                                                                          
+R24        10k                  TopLayer    RESC1608X55N                   3021.653      2627.953      180      10k res, 0603, 1%, 1/10W                                                                          
+R13        1k                   TopLayer    RESC1608X55N                   4555.000      1953.622      90       1k res, 0603, 1%, 1/10W                                                                           
+R12        1k                   TopLayer    RESC1608X55N                   4475.000      1953.622      90       1k res, 0603, 1%, 1/10W                                                                           
+R11        1k                   TopLayer    RESC1608X55N                   3717.913      2758.976      90       1k res, 0603, 1%, 1/10W                                                                           
+R10        1k                   TopLayer    RESC1608X55N                   3788.858      2758.976      90       1k res, 0603, 1%, 1/10W                                                                           
+R9         1k                   TopLayer    RESC1608X55N                   3859.803      2758.976      90       1k res, 0603, 1%, 1/10W                                                                           
+R8         1k                   TopLayer    RESC1608X55N                   3958.701      2758.976      90       1k res, 0603, 1%, 1/10W                                                                           
+R7         1k                   TopLayer    RESC1608X55N                   4029.646      2758.976      90       1k res, 0603, 1%, 1/10W                                                                           
+R6         1k                   TopLayer    RESC1608X55N                   4100.591      2758.976      90       1k res, 0603, 1%, 1/10W                                                                           
+R5         120R                 TopLayer    RESC1608X55N                   3900.000      3290.000      270      120R res, 0603, 1%, 1/10W                                                                         
+D8         LED, 0603, Red       TopLayer    LED-0603-RED                   4555.000      2088.622      90       Chip LED, Red                                                                                     
+D7         LED, 0603, Red       TopLayer    LED-0603-RED                   4475.000      2088.622      90       Chip LED, Red                                                                                     
+D6         LED, 0603, Red       TopLayer    LED-0603-RED                   3716.752      2916.555      90       Chip LED, Red                                                                                     
+D5         LED, 0603, Green     TopLayer    LED-0603-GREEN                 3788.602      2916.555      90       Chip LED, Green                                                                                   
+D4         LED, 0603, Green     TopLayer    LED-0603-GREEN                 3860.453      2916.555      90       Chip LED, Green                                                                                   
+D3         LED, 0603, Green     TopLayer    LED-0603-GREEN                 3954.823      2916.555      90       Chip LED, Green                                                                                   
+D2         LED, 0603, Green     TopLayer    LED-0603-GREEN                 4026.673      2916.555      90       Chip LED, Green                                                                                   
+D1         LED, 0603, Green     TopLayer    LED-0603-GREEN                 4098.524      2916.555      90       Chip LED, Green                                                                                   
+C24        100n                 BottomLayer CAPC0402_M                     3655.315      2220.354      270      100n, 0402                                                                                        
+C23        100n                 BottomLayer CAPC0402_M                     3495.315      2140.354      270      100n, 0402                                                                                        
+C22        100n                 BottomLayer CAPC0402_M                     3970.315      1985.354      270      100n, 0402                                                                                        
+C21        100n                 BottomLayer CAPC0402_M                     3850.315      1985.354      270      100n, 0402                                                                                        
+C20        100n                 BottomLayer CAPC0402_M                     4050.315      2400.354      90       100n, 0402                                                                                        
+C19        100n                 TopLayer    CAPC0402_M                     4385.000      2305.000      90       100n, 0402                                                                                        
+C18        1u                   TopLayer    CAPC0603_M                     4445.000      2310.000      90       1u, 0603                                                                                          
+C17        2u2                  TopLayer    CAPC0603_M                     4250.000      2700.000      90       2u2, 0603                                                                                         
+C16        2u2                  TopLayer    CAPC0603_M                     3510.000      1830.000      360      2u2, 0603                                                                                         
+C15        100n                 BottomLayer CAPC0402_M                     3464.567      2539.370      90       100n, 0402                                                                                        
+C14        100n                 BottomLayer CAPC0402_M                     4173.228      2244.095      90       100n, 0402                                                                                        
+C13        100n                 BottomLayer CAPC0402_M                     3779.528      1968.504      270      100n, 0402                                                                                        
+C12        100n                 BottomLayer CAPC0402_M                     3799.213      2539.370      90       100n, 0402                                                                                        
+C11        100n                 BottomLayer CAPC0402_M                     4173.228      2539.370      90       100n, 0402                                                                                        
+C10        100n                 BottomLayer CAPC0402_M                     4173.228      1968.504      90       100n, 0402                                                                                        
+C9         100n                 BottomLayer CAPC0402_M                     3425.197      1968.504      270      100n, 0402                                                                                        
+C8         2u2                  TopLayer    CAPC0603_M                     3610.000      3170.000      360      2u2, 0603                                                                                         
+C7         100n                 TopLayer    CAPC0402_M                     3610.000      3240.000      360      100n, 0402                                                                                        
+C6         100n                 TopLayer    CAPC0402_M                     3740.000      3240.000      180      100n, 0402                                                                                        
+C5         2u2                  TopLayer    CAPC0603_M                     3740.000      3170.000      180      2u2, 0603                                                                                         
+C4         2u2                  TopLayer    CAPC0603_M                     4080.000      3170.000      180      2u2, 0603                                                                                         
+C3         100n                 TopLayer    CAPC0402_M                     4081.890      3240.000      180      100n, 0402                                                                                        
+C2         100n                 TopLayer    CAPC0402_M                     4200.000      3240.000      180      100n, 0402                                                                                        
+C1         2u2                  TopLayer    CAPC0603_M                     4200.000      3170.000      180      2u2, 0603                                                                                         
+R3         120R                 TopLayer    RESC1608X55N                   4375.000      3290.000      270      120R res, 0603, 1%, 1/10W                                                                         
+R1         10R                  TopLayer    RESC1608X55N                   4580.000      3550.000      360      10R res, 0603, 1%, 1/10W                                                                          
+R2         4k7                  TopLayer    RESC1608X55N                   4133.465      3550.000      360      4k7 res, 0603, 1%, 1/10W                                                                          
+R4         4k7                  TopLayer    RESC1608X55N                   3680.000      3550.000      360      4k7 res, 0603, 1%, 1/10W                                                                          
+U1         SPC5748GSK1MMJ6      TopLayer    BGA256C100P16X16_1700X1700X170 3799.213      2263.780      180      Freescale 32-bit MCU, Triple core, 6MB Flash, 160MHz, -40/+125degC, Automotive Qualified, BGA 256 
+J1         CW308_TARGETCON      TopLayer    CW308_TBOARD_CONN              3815.000      2210.000      0        CW308 "Standard" Target Board Connector                                                           
+J2         DRB-09P11G1R         TopLayer    TAIT-DRB-09P11G1R_V            4216.889      3725.905      360      DB9 R/A Connector, Through-hole, Male                                                             
+U3         TJA1051T/3           TopLayer    SOIC8_NARROW                   3670.000      3390.000      360      CAN-FD Transceiver, 3.3V                                                                          
+U2         TJA1051T/3           TopLayer    SOIC8_NARROW                   4133.858      3385.827      360      CAN-FD Transceiver, 3.3V                                                                          
+C25        100n                 TopLayer    CAPC0402_M                     3090.000      1721.890      270      100n, 0402                                                                                        
+C26        2u2                  TopLayer    CAPC0603_M                     4570.000      1835.000      180      2u2, 0603                                                                                         
+C27        2u2                  TopLayer    CAPC0603_M                     4570.000      1770.000      180      2u2, 0603                                                                                         
+C28        2u2                  TopLayer    CAPC0603_M                     4430.000      1410.000      360      2u2, 0603                                                                                         
+C29        2u2                  TopLayer    CAPC0603_M                     4430.000      1350.000      360      2u2, 0603                                                                                         
+C30        100n                 TopLayer    CAPC0402_M                     4430.000      1300.000      360      100n, 0402                                                                                        
+C31        2u2                  TopLayer    CAPC0603_M                     4620.000      1280.000      180      2u2, 0603                                                                                         
+C32        2u2                  TopLayer    CAPC0603_M                     4535.000      2480.000      270      2u2, 0603                                                                                         
+C33        100n                 TopLayer    CAPC0402_M                     4475.000      2485.000      270      100n, 0402                                                                                        
+D9         LED, 0603, Red       TopLayer    LED-0603-RED                   3235.000      1515.000      90       Chip LED, Red                                                                                     
+R14        1k                   TopLayer    RESC1608X55N                   3235.000      1366.535      90       1k res, 0603, 1%, 1/10W                                                                           
+R15        10k                  TopLayer    RESC1608X55N                   3325.000      1520.000      90       10k res, 0603, 1%, 1/10W                                                                          
+R16        10k                  TopLayer    RESC1608X55N                   3200.000      1855.000      360      10k res, 0603, 1%, 1/10W                                                                          
+R17        1k                   TopLayer    RESC1608X55N                   3907.480      1706.693      90       1k res, 0603, 1%, 1/10W                                                                           
+R18        22R                  TopLayer    RESC1608X55N                   3268.465      2960.000      360      22R res, 0603, 1%, 1/10W                                                                          
+R19        22R                  TopLayer    RESC1608X55N                   3270.000      2760.000      180      22R res, 0603, 1%, 1/10W                                                                          
+R20        120R                 TopLayer    RESC1608X55N                   4530.000      1380.000      90       120R res, 0603, 1%, 1/10W                                                                         
+R21        120R                 TopLayer    RESC1608X55N                   4590.000      1380.000      270      120R res, 0603, 1%, 1/10W                                                                         
+R22        1R0                  TopLayer    RESC2012X70N                   4374.016      2511.811      360      1R0 res, 0805, 1%, 1/8W                                                                           
+R23        1R0                  TopLayer    RESC1608X55N                   4295.000      2335.000      180      1R0 res, 0603, 1%, 1/10W                                                                          
+U4         STM6315RDW13F        TopLayer    SOT143B                        3200.000      1720.000      90       2.93V Reset Controller, 112mS                                                                     
+U5         LD1117STR            TopLayer    SOT-223_L                      4488.189      1594.488      180      Adjustable Low Drop Voltage Regulator, 1.25 to 15V, 4-Pin SOT-223, Tape and Reel                  
+J3         HMTSW-104-23-L-S-237 TopLayer    SMTC-HMTSW-104-23-X-S-237      3317.716      3736.220      180                                                                                                        

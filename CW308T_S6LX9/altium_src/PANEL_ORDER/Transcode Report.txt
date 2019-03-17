@@ -1,0 +1,146 @@
+
+
+   ---- Transcoding 'C:\Users\colin\AppData\Local\Temp\NPCB-CW308T-S6LX9-03_PANEL_importZIP\CW308T_S6LX9_PANEL.GTO' ----   Tue Nov 13 14:22:19 2018
+
+D20   --> D100
+D23   --> D101
+D38   --> D102
+D39   --> D103
+D40   --> D104
+D41   --> D105
+D42   --> D106
+D43   --> D107
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\colin\AppData\Local\Temp\NPCB-CW308T-S6LX9-03_PANEL_importZIP\CW308T_S6LX9_PANEL.GTP' ----   Tue Nov 13 14:22:19 2018
+
+D11   --> D108
+D12   --> D109
+D13   --> D110
+D14   --> D111
+D15   --> D112
+D16   --> D113
+D44   --> D114
+D45   --> D115
+D46   --> D116
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\colin\AppData\Local\Temp\NPCB-CW308T-S6LX9-03_PANEL_importZIP\CW308T_S6LX9_PANEL.GTS' ----   Tue Nov 13 14:22:19 2018
+
+D47   --> D117
+D48   --> D118
+D49   --> D119
+D50   --> D120
+D51   --> D121
+D52   --> D122
+D53   --> D123
+D54   --> D124
+D55   --> D125
+D56   --> D126
+D57   --> D127
+D58   --> D128
+D59   --> D129
+D60   --> D130
+D61   --> D131
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\colin\AppData\Local\Temp\NPCB-CW308T-S6LX9-03_PANEL_importZIP\CW308T_S6LX9_PANEL.GTL' ----   Tue Nov 13 14:22:19 2018
+
+D10   --> D132
+D11   --> D133
+D12   --> D134
+D13   --> D135
+D14   --> D136
+D15   --> D137
+D16   --> D138
+D17   --> D139
+D18   --> D140
+D19   --> D141
+D20   --> D142
+D21   --> D143
+D22   --> D144
+D23   --> D145
+D24   --> D146
+D25   --> D147
+D26   --> D148
+D27   --> D149
+D28   --> D150
+D29   --> D151
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\colin\AppData\Local\Temp\NPCB-CW308T-S6LX9-03_PANEL_importZIP\CW308T_S6LX9_PANEL.GP1' ----   Tue Nov 13 14:22:19 2018
+
+D30   --> D152
+D31   --> D153
+D32   --> D154
+D33   --> D155
+D34   --> D156
+D35   --> D157
+D36   --> D158
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\colin\AppData\Local\Temp\NPCB-CW308T-S6LX9-03_PANEL_importZIP\CW308T_S6LX9_PANEL.GP2' ----   Tue Nov 13 14:22:19 2018
+
+D30   --> D159
+D31   --> D160
+D32   --> D161
+D33   --> D162
+D34   --> D163
+D35   --> D164
+D36   --> D165
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\colin\AppData\Local\Temp\NPCB-CW308T-S6LX9-03_PANEL_importZIP\CW308T_S6LX9_PANEL.GBL' ----   Tue Nov 13 14:22:19 2018
+
+D13   --> D166
+D19   --> D167
+D20   --> D168
+D22   --> D169
+D24   --> D170
+D25   --> D171
+D26   --> D172
+D27   --> D173
+D28   --> D174
+D29   --> D175
+D37   --> D176
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\colin\AppData\Local\Temp\NPCB-CW308T-S6LX9-03_PANEL_importZIP\CW308T_S6LX9_PANEL.GBS' ----   Tue Nov 13 14:22:19 2018
+
+D51   --> D177
+D57   --> D178
+D58   --> D179
+D59   --> D180
+D60   --> D181
+D61   --> D182
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\colin\AppData\Local\Temp\NPCB-CW308T-S6LX9-03_PANEL_importZIP\CW308T_S6LX9_PANEL.GBP' ----   Tue Nov 13 14:22:19 2018
+
+D13   --> D183
+D37   --> D184
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\colin\AppData\Local\Temp\NPCB-CW308T-S6LX9-03_PANEL_importZIP\CW308T_S6LX9_PANEL.GBO' ----   Tue Nov 13 14:22:19 2018
+
+D23   --> D185
+D38   --> D186
+D39   --> D187
+D41   --> D188
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\colin\AppData\Local\Temp\NPCB-CW308T-S6LX9-03_PANEL_importZIP\CW308T_S6LX9_PANEL.NCDRILL' ----   Tue Nov 13 14:22:19 2018
+
+T3   --> T4
+T4   --> T5
+-----------------------------------------------------------------
