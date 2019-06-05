@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for CW308T_LPC55S69_Target
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -120,7 +120,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=KHUQBEAA
 
 [GeneratedDocument1]
 DocumentPath=OUTPUT\FILES\NC Drill\CW308T_LPC55S69_MainPCB.DRR
@@ -183,20 +183,96 @@ DocumentPath=OUTPUT\FILES\NC Drill\CW308T_LPC55S69_MainPCB.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument16]
+DocumentPath=OUTPUT\FILES\NC Drill\CW308T_LPC55S69_PANEL.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_LPC55S69_PANEL.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_LPC55S69_PANEL.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_LPC55S69_PANEL.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_LPC55S69_PANEL.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_LPC55S69_PANEL.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_LPC55S69_PANEL.GM18
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_LPC55S69_PANEL.GM25
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_LPC55S69_PANEL.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_LPC55S69_PANEL.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_LPC55S69_PANEL.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_LPC55S69_PANEL.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=OUTPUT\FILES\NC Drill\CW308T_LPC55S69_PANEL.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_LPC55S69_PANEL.REP
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_LPC55S69_PANEL.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=OUTPUT\FILES\NC Drill\CW308T_LPC55S69_PANEL.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument32]
 DocumentPath=Project Outputs for CW308T_LPC55S69_Target\Design Rule Check - CW308T_LPC55S69_MainPCB.html
 DItemRevisionGUID=
 
+[GeneratedDocument33]
+DocumentPath=OUTPUT\FILES\Pick Place\Pick Place for CW308T_LPC55S69_PANEL.csv
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=OUTPUT\FILES\Pick Place\Pick Place for CW308T_LPC55S69_PANEL.txt
+DItemRevisionGUID=
+
 [Parameter1]
-Name=PrjLicense
-Value=GPL
+Name=
+Value=
 
 [Parameter2]
+Name=PrjRev
+Value=03
+
+[Parameter3]
 Name=PrjName
 Value=LPC55S69 Target
 
-[Parameter3]
-Name=PrjRev
-Value=01
+[Parameter4]
+Name=PrjLicense
+Value=GPL
 
 [Configuration1]
 Name=Default Configuration
@@ -209,7 +285,7 @@ ContentTypeGUID=
 ConfigurationType=
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for CW308T_LPC55S69_Target
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -794,6 +870,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
