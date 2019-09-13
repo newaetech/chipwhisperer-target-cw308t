@@ -3,9 +3,12 @@
 Soldermask: Blue
 Silkscreen: White
 
-Finish: HASL
+Finish: Immersion Gold
 
 Individual PCB Size: 52.3mm x 64.6mm
+
+Trace/Space: 5 mil
+Min Drill:   0.3 mm
 
 
 Board Files:
