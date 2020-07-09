@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for CW308T_EFR32MG21
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -87,6 +87,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document4]
+DocumentPath=CW308T_EFR32MG21_PANEL.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KHUQBEAA
 
 [GeneratedDocument1]
 DocumentPath=OUTPUT\FILES\NC Drill\CW308T_EFR32MG21.DRR
@@ -149,20 +166,88 @@ DocumentPath=OUTPUT\FILES\NC Drill\CW308T_EFR32MG21.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument16]
+DocumentPath=OUTPUT\FILES\NC Drill\CW308T_EFR32MG21_PANEL.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_EFR32MG21_PANEL.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_EFR32MG21_PANEL.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_EFR32MG21_PANEL.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_EFR32MG21_PANEL.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_EFR32MG21_PANEL.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_EFR32MG21_PANEL.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_EFR32MG21_PANEL.GM18
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_EFR32MG21_PANEL.GM25
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_EFR32MG21_PANEL.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_EFR32MG21_PANEL.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_EFR32MG21_PANEL.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_EFR32MG21_PANEL.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=OUTPUT\FILES\NC Drill\CW308T_EFR32MG21_PANEL.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_EFR32MG21_PANEL.REP
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_EFR32MG21_PANEL.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=OUTPUT\FILES\NC Drill\CW308T_EFR32MG21_PANEL.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument33]
 DocumentPath=Project Outputs for CW308T_EFR32MG21\Design Rule Check - CW308T_EFR32MG21.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=PrjRev
-Value=02
+Name=PrjLicense
+Value=GPL
 
 [Parameter2]
 Name=PrjName
 Value=EFR32MG21
 
 [Parameter3]
-Name=PrjLicense
-Value=GPL
+Name=PrjRev
+Value=02
 
 [Configuration1]
 Name=Default Configuration
@@ -175,7 +260,7 @@ ContentTypeGUID=
 ConfigurationType=
 
 [Generic_EDE]
-OutputDir=Project Outputs for CW308T_EFR32MG21
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -798,6 +883,36 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
