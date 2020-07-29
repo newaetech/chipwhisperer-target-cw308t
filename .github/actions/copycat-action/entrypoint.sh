@@ -149,7 +149,7 @@ fi
 mkdir -p "${DST_REPO_DIR}/${DST_PATH%/*}" || exit "$?"
 #cp -rf "${FINAL_SOURCE}" "${DST_REPO_DIR}/${DST_PATH}" || exit "$?"
 
-for targetname in TARGETS
+for targetname in $TARGETS
 do
     cp -rf "${SRC_REPO_NAME}/CW308T_${targetname}/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-${targetname}.md" || exit "$?"
 
