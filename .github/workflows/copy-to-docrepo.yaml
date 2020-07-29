@@ -1,6 +1,6 @@
-- name: Copy to Documentation Repo
-  uses: ./.github/actions/copycat-action
-  with:
-    personal_token: ${{ secrets.PERSONAL_TOKEN }}
-    dst_owner: newaetech
-    dst_repo_name: documentation-master
+name: Copy to Documentation Repo
+uses: ./.github/actions/copycat-action
+with:
+  personal_token: ${{ secrets.PERSONAL_TOKEN }}
+  dst_owner: newaetech
+  dst_repo_name: documentation-master
