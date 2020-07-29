@@ -149,9 +149,15 @@ fi
 mkdir -p "${DST_REPO_DIR}/${DST_PATH%/*}" || exit "$?"
 #cp -rf "${FINAL_SOURCE}" "${DST_REPO_DIR}/${DST_PATH}" || exit "$?"
 
+echo "Attempt 1"
+cp -rf "${SRC_REPO_NAME}/CW308T_87C51/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-87C51.md" || exit "$?"
+
+echo "Attempt loop"
 for targetname in $TARGETS
 do
-    cp -rf "${SRC_REPO_NAME}/CW308T_${targetname}/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-${targetname}.md" || exit "$?"
+    echo "** Copying target ${targetname}"
+    echo   " ${SRC_REPO_NAME}/CW308T_${targetname}/README.md --> ${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-${targetname}.md"
+    cp -rf  "${SRC_REPO_NAME}/CW308T_${targetname}/README.md"   "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-${targetname}.md" || exit "$?"
 
     if [ -d "${SRC_REPO_NAME}/CW308T_${targetname}/Images" ]; then
         cp -rf "${SRC_REPO_NAME}/CW308T_${targetname}/Images/*" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/Images/." || exit "$?"
