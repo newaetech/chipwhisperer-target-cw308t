@@ -143,10 +143,10 @@ fi
 mkdir -p "${DST_REPO_DIR}/${DST_PATH%/*}" || exit "$?"
 #cp -rf "${FINAL_SOURCE}" "${DST_REPO_DIR}/${DST_PATH}" || exit "$?"
 
-#cp -rf "${DST_REPO_DIR}/CW308T_/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-.md" || exit "$?"
+#cp -rf "${SRC_REPO_NAME}/CW308T_/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-.md" || exit "$?"
 
-cp -rf "${DST_REPO_DIR}/CW308T_87C51/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-87C51.md" || exit "$?"
-cp -rf "${DST_REPO_DIR}/CW308T_ESP32/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-ESP32.md" || exit "$?"
+cp -rf "${SRC_REPO_NAME}/CW308T_87C51/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-87C51.md" || exit "$?"
+cp -rf "${SRC_REPO_NAME}/CW308T_ESP32/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-ESP32.md" || exit "$?"
 
 
 cd "${DST_REPO_DIR}" || exit "$?"
