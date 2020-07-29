@@ -2,7 +2,7 @@
 
 This board supports the Infineon TC233LP microcontroller.
 
-![](Images/CW308T_AURIX.PNG)
+![](Images/NAE-CW308-AURIX-TC233.jpg)
 
 ## Specficiations
 
@@ -18,7 +18,9 @@ This board supports the Infineon TC233LP microcontroller.
 | Status | Released |
 | Shunt | 5.1Ω |
 
-Available from the [NewAE Store](https://store.newae.com/aurix-tricore-tc233lp-target-for-cw308/)
+Available from:
+* [Mouser] (https://www.mouser.com/Search/Refine?Keyword=NAE-CW308T-AURIX-TC233)
+* [NewAE Store](https://store.newae.com/aurix-tricore-tc233lp-target-for-cw308/)
 
 ---
 
