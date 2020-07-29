@@ -149,7 +149,9 @@ mkdir -p "${DST_REPO_DIR}/${DST_PATH%/*}" || exit "$?"
 #echo `pwd`
 #echo `ls chipwhisperer-target-cw308t`
 
-cp -rf "CW308T_87C51/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-87C51.md" || exit "$?"
+echo `ls -l ${SRC_REPO_NAME}/CW308T_87C51`
+
+#cp -rf "${SRC_REPO_NAME}/CW308T_87C51/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-87C51.md" || exit "$?"
 #cp -rf "${SRC_REPO_NAME}/CW308T_ESP32/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-ESP32.md" || exit "$?"
 #cp -rf "${SRC_REPO_NAME}/CW308T_ADuCM3029/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-ADuCM3029.md" || exit "$?"
 #cp -rf "${SRC_REPO_NAME}/CW308T_/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-.md" || exit "$?"
