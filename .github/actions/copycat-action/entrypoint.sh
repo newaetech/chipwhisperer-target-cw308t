@@ -156,7 +156,7 @@ do
     cp -rf  "${SRC_REPO_NAME}/CW308T_${targetname}/README.md"   "${DST_REPO_DIR}/docs/Targets/UFO Targets/CW308T-${targetname}.md" || exit "$?"
 
     if [ -d "${SRC_REPO_NAME}/CW308T_${targetname}/Images" ]; then
-        cp -rf "${SRC_REPO_NAME}/CW308T_${targetname}/Images/*" "${DST_REPO_DIR}/docs/Targets/UFO Targets/Images/." || exit "$?"
+        cp -rf "${SRC_REPO_NAME}/CW308T_${targetname}/Images/." "${DST_REPO_DIR}/docs/Targets/UFO Targets/Images/" || exit "$?"
     else
         echo "Skipping 'Images' for ${targetname}"
     fi
