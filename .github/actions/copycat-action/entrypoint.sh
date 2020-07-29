@@ -25,11 +25,17 @@ DST_WIKI="$INPUT_DST_WIKI"
 COMMIT_MESSAGE="$INPUT_COMMIT_MESSAGE"
 USERNAME="$INPUT_USERNAME"
 EMAIL="$INPUT_EMAIL"
+TARGETS="$INPUT_TARGETS"
 
 #if [[ -z "$SRC_PATH" ]]; then
 #    echo "SRC_PATH environment variable is missing. Cannot proceed."
 #    exit 1
 #fi
+
+if [[ -z "$TARGETS" ]]; then
+    echo "TARGETS variable is missing, Cannot proceed."
+    exit 1
+fi
 
 if [[ -z "$DST_OWNER" ]]; then
     echo "DST_OWNER environment variable is missing. Cannot proceed."
@@ -143,22 +149,17 @@ fi
 mkdir -p "${DST_REPO_DIR}/${DST_PATH%/*}" || exit "$?"
 #cp -rf "${FINAL_SOURCE}" "${DST_REPO_DIR}/${DST_PATH}" || exit "$?"
 
-#cp -rf "${SRC_REPO_NAME}/CW308T_/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-.md" || exit "$?"
+for targetname in TARGETS
+do
+    cp -rf "${SRC_REPO_NAME}/CW308T_${targetname}/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-${targetname}.md" || exit "$?"
 
-#echo `ls`
-#echo `pwd`
-#echo `ls chipwhisperer-target-cw308t`
+    if [ -d "${SRC_REPO_NAME}/CW308T_${targetname}/Images" ]; then
+        cp -rf "${SRC_REPO_NAME}/CW308T_${targetname}/Images/*" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/Images/." || exit "$?"
+    else
+        echo "Skipping 'Images' for ${targetname}"
+    fi
+done
 
-echo `ls -l ${SRC_REPO_NAME}/CW308T_87C51`
-
-#cp -rf "${SRC_REPO_NAME}/CW308T_87C51/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-87C51.md" || exit "$?"
-#cp -rf "${SRC_REPO_NAME}/CW308T_ESP32/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-ESP32.md" || exit "$?"
-#cp -rf "${SRC_REPO_NAME}/CW308T_ADuCM3029/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-ADuCM3029.md" || exit "$?"
-#cp -rf "${SRC_REPO_NAME}/CW308T_/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-.md" || exit "$?"
-#cp -rf "${SRC_REPO_NAME}/CW308T_/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-.md" || exit "$?"
-#cp -rf "${SRC_REPO_NAME}/CW308T_/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-.md" || exit "$?"
-#cp -rf "${SRC_REPO_NAME}/CW308T_/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-.md" || exit "$?"
-#cp -rf "${SRC_REPO_NAME}/CW308T_/README.md" "${DST_REPO_DIR}/docs/Targets/UFO\ Targets/CW308T-.md" || exit "$?"
 
 cd "${DST_REPO_DIR}" || exit "$?"
 

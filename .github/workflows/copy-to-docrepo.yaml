@@ -11,3 +11,4 @@ jobs:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
         dst_owner: newaetech
         dst_repo_name: documentation-master
+        targets: 87C51 ADuCM3029

@@ -58,6 +58,9 @@ inputs:
   email:
     description: 'The email used for associating commits made by this GitHub action'
     required: false
+  targets:
+    description: 'The CW308T Target Nmaes'
+    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
@@ -78,3 +81,4 @@ runs:
     - ${{ inputs.commit_message }}
     - ${{ inputs.username }}
     - ${{ inputs.email }}
+    - ${{ inputs.targets }}
