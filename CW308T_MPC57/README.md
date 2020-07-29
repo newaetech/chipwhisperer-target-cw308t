@@ -1,17 +1,27 @@
 # CW308T-MPC5748G
 
->This requires a programmer for the MPC5748G to reload code.
->This Target requires special setup. An example script can be found at: https://github.com/newaetech/chipwhisperer-jupyter/blob/1ccd1b1fbd8a3295e1033efb37e53e1022d47cc5/Helper_Scripts/Setup_CW308_MPC5748G.ipynb
-
 The MPC5748G target uses the NXP MPC5748G device, which is a triple-core
 PowerPC microcontroller for automotive applications. This target board
 has a number of interesting features including:
 
-  - Two CAN interfaces, with with DB9.
+  - Two CAN/CAN-FD interfaces, with with DB9.
   - Two serial ports (usable as LIN).
   - Various solder jumpers for variety of power analysis options.
 
 ![](Images/Mpc5748g_web.jpg)
+
+!!! attention
+    This target requires an external programmer for the MPC5748G to reload code.
+
+!!! attention
+    This target is not integrated into the ChipWhisperer "HAL" build system due to
+    the multi-core support.
+
+## Quick Links
+
+* [Buy on Mouser](https://www.mouser.com/ProductDetail/NewAE/NAE-CW308T-MPC5748G?qs=r5DSvlrkXmLaM5xNpZhgpQ%3D%3D)
+* [Download Schematic](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/master/CW308T_MPC57/SCH_CW308T_MPC5748G_02.PDF)
+* [Demo Application](https://github.com/newaetech/chipwhisperer-target-mpc5748g)
 
 ## Specifications
 
@@ -26,11 +36,24 @@ has a number of interesting features including:
 | Status | Released |
 | Shunt | 1Ω |
 
-Available from [Mouser](https://www.mouser.com/ProductDetail/NewAE/NAE-CW308T-MPC5748G?qs=r5DSvlrkXmLaM5xNpZhgpQ%3D%3D)
-
 # Intended Usage
 
 ---
+
+## Quick Start
+
+### Hardware
+
+To use this target, you should:
+
+* Plug the target into a CW308 base-board.
+* Ensure the CW308 has a 5V power supply - either by connecting to a ChipWhisperer-Pro, or using a 5V source on the 2.1mm DC power jack.
+
+### Software
+
+This Target requires special setup. An example script can be found at: https://github.com/newaetech/chipwhisperer-jupyter/blob/1ccd1b1fbd8a3295e1033efb37e53e1022d47cc5/Helper_Scripts/Setup_CW308_MPC5748G.ipynb
+
+The demo application (see below) allows you to run various of the normal ChipWhisperer demos, along with other work.
 
 ## Demo Application
 
