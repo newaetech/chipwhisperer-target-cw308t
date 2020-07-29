@@ -10,5 +10,5 @@ jobs:
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
         dst_owner: newaetech
-        dst_repo_name: documentation-master
+        dst_repo_name: documentation-main
         targets: 87C51 ADuCM3029 ATMega1284RFR2 ATSAM4L ATSAML11 ATSAMR21 AURIX AVR CC2538 CEC1702 D2000 EFM32GG11 EFM32TG11 ESP32 K24F LPC1343F MPC57 MSP430 STM32F S6LX9 XMEGA

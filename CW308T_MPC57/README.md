@@ -36,8 +36,6 @@ has a number of interesting features including:
 | Status | Released |
 | Shunt | 1Ω |
 
-# Intended Usage
-
 ---
 
 ## Quick Start
@@ -54,6 +52,8 @@ To use this target, you should:
 This Target requires special setup. An example script can be found at: https://github.com/newaetech/chipwhisperer-jupyter/blob/1ccd1b1fbd8a3295e1033efb37e53e1022d47cc5/Helper_Scripts/Setup_CW308_MPC5748G.ipynb
 
 The demo application (see below) allows you to run various of the normal ChipWhisperer demos, along with other work.
+
+---
 
 ## Demo Application
 
@@ -147,6 +147,8 @@ S32DS tools. The following shows the required command line:
 ` E:\nxp\S32DS_Power_v2017.R1\Cross_Tools\powerpc-eabivle-4_9\bin>powerpc-eabivle-objdump.exe -mpowerpc -Me200z4 -D -b srec -EB MPC5748G.s19 > MPC5748G.txt`
 
 ## Schematic
+
+* [Download Schematic](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/master/CW308T_MPC57/SCH_CW308T_MPC5748G_02.PDF)
 
 ![](Images/mpc5748g-sch1.png)
 ![](Images/mpc5748g-sch2.png)
