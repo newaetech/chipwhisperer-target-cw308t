@@ -4,6 +4,7 @@ jobs:
   copy:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout    
     - name: Copycat
       uses: ./.github/actions/copycat-action
       with:
