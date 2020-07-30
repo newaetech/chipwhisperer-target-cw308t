@@ -1,5 +1,7 @@
 # ChipWhisperer CW308 Targets #
 
+![Copy to Documentation Repo](https://github.com/newaetech/chipwhisperer-target-cw308t/workflows/Copy%20to%20Documentation%20Repo/badge.svg)
+
 ![](doc/esp32.jpg) ![](doc/s6lx9.jpg) ![](doc/stm32.jpg)
 
 These are *targets* for the CW308 UFO Board. This repo contains gerbers, schematics, and source files (in Altium Designer format). Note **SOME BOARDS ARE UNTESTED**. All files are provided at your own risk. The CW308 UFO board is required for use (not part of this repo) as it supplies power, clock, programming headers etc:
@@ -11,6 +13,10 @@ Many of these target boards (along with UFO baseboard) can be purchased assemble
 The documentation for these are mostly held on [http://wiki.newae.com](http://wiki.newae.com) . You can normally see if a board is tested by checking the documentation support.
 
 Most (all?) of these boards support the ChipWhisperer example applications. That means a basic HAL is provided in [chipwhisperer/hardware/victims/firmware/hal](https://github.com/newaetech/chipwhisperer/tree/develop/hardware/victims/firmware/hal) . Some of the more unique boards do not build as part of that system due to complexity of porting (i.e., ESP32).
+
+## Documentation ##
+
+The documentation in each directory (the markdown README.md file) is mirrored to the ChipWhisperer.com main documentation page.
 
 ## Using Boards ##
 
