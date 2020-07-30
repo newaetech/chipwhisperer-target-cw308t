@@ -2,16 +2,14 @@
 
 The EFR32MG21 board features a QFN32 socket that matches the EFR32MG21A/B footprint from Silicon Labs. The EFR32MG21A/B device features a number of security features, including a dedicated “Secure Element” or “Secure Vault” core that performs a secure boot operation, and DPA countermeasures on cryptographic primitives.
 
-This board requires an external JTAG/SWD programmer (such as OpenOCD or J-Link) for use, as does not include a bootloader.
-
-The design files are available as part of the open-source ChipWhisperer example targets.
-
 The RF section is not broken out to a 50-ohm matched header, but instead a simple 3-pin header which allows potential usage in laboratory environments.
+
+As this board contains a QFN socket, it is ideally suited for experiments such as template attacks, or potentially damaging attacks which require replacement of the main IC. In addition, this target can be easily shipped without restrictions as it does not contain any cryptographic functions (no IC at all is included).
 
 ![](Images/NAE-CW308-EFR32MG21-SOCKET_web.jpg)
 
 !!! attention
-    This target requires an external programmer for the MPC5748G to reload code.
+    This target requires an external programmer to reload code.
 
 ---
 

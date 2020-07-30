@@ -10,7 +10,7 @@ See the -MG21B board for the version wtih ‘Secure Vault’.
 ![](Images/NAE-CW308_EFR32MG21_web.jpg)
 
 !!! attention
-    This target requires an external programmer for the MPC5748G to reload code.
+    This target requires an external programmer to reload code.
 
 ---
 
