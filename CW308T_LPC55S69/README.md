@@ -15,7 +15,7 @@ Whisperer example targets.
 * Full design files are available under an open-source license.
 * Default 10-ohm shunt resistor for high-SNR measurements, can be shorted with lower-value resistor when running higher frequencies or full dual-core mode.
 
-![](Images/NAE-CW308T-LPC55S69_web.jpg)
+![](Images/LPC55S9-Top.jpg)
 
 ---
 
