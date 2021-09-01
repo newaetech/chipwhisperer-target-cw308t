@@ -1,2 +1,2 @@
-Record=TopLevelDocument|FileName=CW308T_LPC1343.SchDoc
-Record=SheetSymbol|SourceDocument=CW308T_LPC1343.SchDoc|Designator=Connectors|SchDesignator=Connectors|FileName=CW308T_LPC1343_CONN.SchDoc|SymbolType=Normal|RawFileName=CW308T_LPC1343_CONN.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=TopLevelDocument|FileName=CW308T_LPC1343.SchDoc|SheetNumber= 
+Record=SheetSymbol|SourceDocument=CW308T_LPC1343.SchDoc|Designator=Connectors|SchDesignator=Connectors|FileName=CW308T_LPC1343_CONN.SchDoc|SheetNumber= |SymbolType=Normal|RawFileName=CW308T_LPC1343_CONN.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
