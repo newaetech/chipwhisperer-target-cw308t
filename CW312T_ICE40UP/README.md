@@ -6,7 +6,7 @@ iCE40 UltraPlus (UP5K) Target for ChipWhisperer, with CW312 edge connector.
 
 ## Available Pins
 
-To simplify routing so that the board can be produced/ordered on "standard" processes, no vias are used. This
+To simplify routing so that the board can be produced/ordered on "standard" processes, no fancy vias are used (vias under the BGA would require microvias or filled vias). This
 results in many connections on the schematic to allow routing of pads out:
 
 ![](Images/routegangster.png)
