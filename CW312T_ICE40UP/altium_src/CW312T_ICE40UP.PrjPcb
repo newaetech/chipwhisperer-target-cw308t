@@ -163,15 +163,15 @@ DItemRevisionGUID=
 
 [Parameter1]
 Name=PrjLicense
-Value=<Select License>
+Value=CC SA
 
 [Parameter2]
 Name=PrjName
-Value=<Enter Project Name>
+Value=CW312-iCE40
 
 [Parameter3]
 Name=PrjRev
-Value=00
+Value=01
 
 [Configuration1]
 Name=Default Configuration
@@ -182,6 +182,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=
 ConfigurationType=
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
