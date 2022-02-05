@@ -152,8 +152,11 @@ mkdir -p "${DST_REPO_DIR}/${DST_PATH%/*}" || exit "$?"
 for targetname in $TARGETS
 do
     echo "** Copying target ${targetname}"
-    echo   " ${SRC_REPO_NAME}/CW308T_${targetname}/README.md --> ${DST_REPO_DIR}/docs/Targets/UFO Targets/CW308T-${targetname}.md"
-    cp -rf  "${SRC_REPO_NAME}/CW308T_${targetname}/README.md"   "${DST_REPO_DIR}/docs/Targets/UFO Targets/CW308T-${targetname}.md" || exit "$?"
+
+    if [ -d "${SRC_REPO_NAME}/CW308T_${targetname}]; then
+        echo   " ${SRC_REPO_NAME}/CW308T_${targetname}/README.md --> ${DST_REPO_DIR}/docs/Targets/UFO Targets/CW308T-${targetname}.md"
+        cp -rf  "${SRC_REPO_NAME}/CW308T_${targetname}/README.md"   "${DST_REPO_DIR}/docs/Targets/UFO Targets/CW308T-${targetname}.md" || exit "$?"
+    fi
 
     if [ -d "${SRC_REPO_NAME}/CW308T_${targetname}/Images" ]; then
         cp -rf "${SRC_REPO_NAME}/CW308T_${targetname}/Images/." "${DST_REPO_DIR}/docs/Targets/UFO Targets/Images/" || exit "$?"
@@ -161,9 +164,10 @@ do
         echo "Skipping 'Images' for ${targetname}"
     fi
 
-    echo "** Copying target ${targetname}"
-    echo   " ${SRC_REPO_NAME}/CW312T_${targetname}/README.md --> ${DST_REPO_DIR}/docs/Targets/UFO Targets/CW312T-${targetname}.md"
-    cp -rf  "${SRC_REPO_NAME}/CW312T_${targetname}/README.md"   "${DST_REPO_DIR}/docs/Targets/UFO Targets/CW312T-${targetname}.md" || exit "$?"
+    if [ -d "${SRC_REPO_NAME}/CW312T_${targetname}]; then
+        echo   " ${SRC_REPO_NAME}/CW312T_${targetname}/README.md --> ${DST_REPO_DIR}/docs/Targets/UFO Targets/CW312T-${targetname}.md"
+        cp -rf  "${SRC_REPO_NAME}/CW312T_${targetname}/README.md"   "${DST_REPO_DIR}/docs/Targets/UFO Targets/CW312T-${targetname}.md" || exit "$?"
+    fi
 
     if [ -d "${SRC_REPO_NAME}/CW312T_${targetname}/Images" ]; then
         cp -rf "${SRC_REPO_NAME}/CW312T_${targetname}/Images/." "${DST_REPO_DIR}/docs/Targets/UFO Targets/Images/" || exit "$?"
