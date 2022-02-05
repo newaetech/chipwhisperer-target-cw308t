@@ -160,6 +160,17 @@ do
     else
         echo "Skipping 'Images' for ${targetname}"
     fi
+
+    echo "** Copying target ${targetname}"
+    echo   " ${SRC_REPO_NAME}/CW312T_${targetname}/README.md --> ${DST_REPO_DIR}/docs/Targets/UFO Targets/CW312T-${targetname}.md"
+    cp -rf  "${SRC_REPO_NAME}/CW312T_${targetname}/README.md"   "${DST_REPO_DIR}/docs/Targets/UFO Targets/CW312T-${targetname}.md" || exit "$?"
+
+    if [ -d "${SRC_REPO_NAME}/CW312T_${targetname}/Images" ]; then
+        cp -rf "${SRC_REPO_NAME}/CW312T_${targetname}/Images/." "${DST_REPO_DIR}/docs/Targets/UFO Targets/Images/" || exit "$?"
+    else
+        echo "Skipping 'Images' for ${targetname}"
+    fi
+
 done
 
 
