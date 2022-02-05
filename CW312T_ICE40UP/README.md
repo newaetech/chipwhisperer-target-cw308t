@@ -81,19 +81,26 @@ neorv.close_port()
 
 ## Schematic
 
-The schematic is available as a [PDF](NAE-CW312T-iCE40.PDF) or below as an image:
+The schematic is available as a [PDF](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/main/CW312T_ICE40UP/NAE-CW312T-iCE40.PDF) or below as an image:
 
-![](NAE-CW312T-iCE40.png)
+![](Images/NAE-CW312T-iCE40.png)
 
-## DIY Soldering
+## DIY Soldering/Build
 
 The WLCSP device chosen for the iCE40 was used for several reasons:
 
 * During pandemic silicon shortage it was more widely available.
 * WLSCP allows usage for [BBI fault injection](https://eprint.iacr.org/2020/1228.pdf).
 
+If building your own, we have had great success with "flux-only" soldering rather than worrying about the small pitch BGA paste.
+
+To do this, put some liquid flux down, put the WLCSP package on the board (align it carefully), and heat with hot air (our). Watch the side of the
+WLCSP package until it appears to have seated on all sides. Remove the hot air.
+
 ## CW308T Version
 
 An earlier version of this board was [available with the CW308T pinout](https://github.com/newaetech/chipwhisperer-target-cw308t/tree/main/CW308T_ICE405). The iCE40 connections are identical.
 
 The CW308T version was never produced by NewAE, but you can build your own if you prefer this layout.
+
+The firmware HAL still uses the `CW308` name for this reason.

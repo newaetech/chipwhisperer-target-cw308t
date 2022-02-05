@@ -20,7 +20,7 @@ has a number of interesting features including:
 ## Quick Links
 
 * [Buy on Mouser](https://www.mouser.com/ProductDetail/NewAE/NAE-CW308T-MPC5748G?qs=r5DSvlrkXmLaM5xNpZhgpQ%3D%3D)
-* [Download Schematic](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/master/CW308T_MPC57/SCH_CW308T_MPC5748G_02.PDF)
+* [Download Schematic](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/main/CW308T_MPC57/SCH_CW308T_MPC5748G_02.PDF)
 * [Demo Application](https://github.com/newaetech/chipwhisperer-target-mpc5748g)
 
 ## Specifications
@@ -148,7 +148,7 @@ S32DS tools. The following shows the required command line:
 
 ## Schematic
 
-* [Download Schematic](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/master/CW308T_MPC57/SCH_CW308T_MPC5748G_02.PDF)
+* [Download Schematic](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/main/CW308T_MPC57/SCH_CW308T_MPC5748G_02.PDF)
 
 ![](Images/mpc5748g-sch1.png)
 ![](Images/mpc5748g-sch2.png)

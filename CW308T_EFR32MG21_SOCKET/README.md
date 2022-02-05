@@ -17,7 +17,7 @@ As this board contains a QFN socket, it is ideally suited for experiments such a
 
 * [Buy on Mouser](https://www.mouser.com/Search/Refine?Keyword=NAE-CW308T-EFR32MG21-SOCKET)
 * [Buy on Webstore](http://store.newae.com/efr32mg21-with-32qfn-socket-target-for-cw308/)
-* [Download Schematic](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/master/CW308T_EFR32MG21_SOCKET/NAE-CW308T-EFR32MG21-SOCKET_Schematic.PDF)
+* [Download Schematic](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/main/CW308T_EFR32MG21_SOCKET/NAE-CW308T-EFR32MG21-SOCKET_Schematic.PDF)
 
 ## Specifications
 

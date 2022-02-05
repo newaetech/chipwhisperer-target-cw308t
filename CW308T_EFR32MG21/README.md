@@ -17,13 +17,13 @@ See the -MG21B board for the version wtih ‘Secure Vault’.
 ## Quick Links
 
 * [Buy on Mouser](https://www.mouser.com/Search/Refine?Keyword=NAE-CW308T-EFR32MG21A)
-* [Download Schematic](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/master/CW308T_EFR32MG21/NAE-CW308T-EFR32MG21-02_Schematic.PDF)
+* [Download Schematic](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/main/CW308T_EFR32MG21/NAE-CW308T-EFR32MG21-02_Schematic.PDF)
 
 ## Specifications
 
 | Feature | Notes/Range |
 |---------|----------|
-| Target Device | EFR32MG21A010F1024 |
+| Target Device | EFR32MG21A010F1024, EFR32MG21A020F1024, EFR32MG21B010F1024 |
 | Target Architecture | Arm Cortex M33 |
 | Vcc | 1.2V |
 | Programming | JTAG |
@@ -41,6 +41,12 @@ Break-out for various voltage rails, allowing over-driving of internal regulator
 ## Security Features
 
 EFR32MG21A (“Mighty Gecko Multiprotocol Wireless SoC”) has a high-performance Cortex M33 (TrustZone-M) with  a seperate “secure element” core that handles the secure boot operation, along with multiple cryptographic accelerators (both AES and ECC) that include advertised DPA countermeasures.
+
+---
+
+## 'A' vs 'B' Variants
+
+The devices is available in a variant with the 'secure vault' option. These are referred to as the MG21B version. 
 
 ---
 
