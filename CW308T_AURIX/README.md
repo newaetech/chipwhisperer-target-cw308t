@@ -69,6 +69,10 @@ and hit "Add Sel.\>\>". Finally, hit Program. Press the nRST button on
 the CW308. Current versions of the HAL will light up LED1 upon starting,
 so if this LED is on, your program has been successfully flashed.
 
+The correct header to use on the miniWiggler is the DAP header (closest to the FT2232)>
+The following 20-pin to 10-pin adapter can be used to connect the miniWiggler to
+the ChipWhisperer: https://www.olimex.com/Products/ARM/JTAG/ARM-JTAG-20-10/
+
 ---
 
 ## Building Projects

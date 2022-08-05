@@ -90,6 +90,13 @@ decrypt data with HW_AES128_Dec().
 
 ---
 
+## Internal Clock
+
+The STM32Fx build system is also setup to work off of the internal clock instead of an external one.
+To enable this mode, build with `MCU_CLK=INT`. Note that the code still assumes that the device is clocked at 7.37MHz,
+so the communication baud rate will be changed by a factor of `INT_CLK/7.37MHz`. For example, the F3's internal clock
+runs at 8MHz, so you should use a baud rate of `8/7.37 * SIMPLESERIAL_BAUD`.
+
 ## CAN Connection
 
 A 6-pin header is present for devices which have CAN hardware support
