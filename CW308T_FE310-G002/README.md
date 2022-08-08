@@ -56,6 +56,13 @@ The CW308T_FE310 has a W25Q32JV 32MB SPI chip used as program memory which can b
 of a compatable JTAG programmer is a Segger J-Link. Ensure that the device is powered and has a valid
 clock before programming.
 
+As of ChipWhisperer 5.6.2, you can use [ChipWhisperer's MPSSE mode](https://chipwhisperer.readthedocs.io/en/latest/debugging.html) to program the FE310. The easiest way is to use the `run_openocd.sh` script included
+in ChipWhisperer's `openocd` folder, along with the `fe310.cfg` file in that folder:
+
+```sh
+chipwhisperer/openocd/run_openocd.sh -p /path/to/fw.elf husky jtag -- -f "fe310.cfg"
+```
+
 ---
 
 ## Schematic
