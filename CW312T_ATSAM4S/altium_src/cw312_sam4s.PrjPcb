@@ -63,7 +63,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=IUFJJKIR
+DocumentUniqueId=PYROGLDV
 
 [Document2]
 DocumentPath=cw312_sam4s.SchDoc
@@ -117,67 +117,75 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=OUTPUT\FILES\NC Drill\cw312_sam4s.DRR
+DocumentPath=OUTPUT\FILES\BOM\Bill of Materials-cw312_sam4s.xls
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.EXTREP
+DocumentPath=OUTPUT\FILES\NC Drill\cw312_sam4s.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GBL
+DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GBO
+DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GBP
+DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GBS
+DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GM1
+DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GTL
+DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GTO
+DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GTP
+DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GTS
+DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=OUTPUT\FILES\NC Drill\cw312_sam4s.LDP
+DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.REP
+DocumentPath=OUTPUT\FILES\NC Drill\cw312_sam4s.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.RUL
+DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.REP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=OUTPUT\FILES\NC Drill\cw312_sam4s.TXT
+DocumentPath=OUTPUT\FILES\Gerber\cw312_sam4s.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
+DocumentPath=OUTPUT\FILES\NC Drill\cw312_sam4s.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument17]
 DocumentPath=Project Outputs for cw312_sam4s\Design Rule Check - cw312_sam4s.html
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=OUTPUT\FILES\Pick Place\Pick Place for cw312_sam4s.csv
 DItemRevisionGUID=
 
 [Parameter1]
@@ -190,7 +198,7 @@ Value=ATSAM4S CW312 Target
 
 [Parameter3]
 Name=PrjRev
-Value=01
+Value=03
 
 [Configuration1]
 Name=Default Configuration
@@ -786,6 +794,11 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

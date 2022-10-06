@@ -1,0 +1,37 @@
+Altium Designer Pick and Place Locations
+C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\hardware_targets\chipwhisperer-target-cw308t\CW312T_ATSAM4S\altium_src\OUTPUT\FILES\Pick Place\Pick Place for cw312_sam4s.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       04-10-22
+Time:       13:50
+Revision:   af997036f7d88adca5c0f066a0082e7cafb58c3b
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"FID3","FIDU-ROUND-1.0MM","TopLayer","FIDU-ROUND-1.0mm","134.6200","53.3400","0","ROUND FIDUCIAL"
+"FID2","FIDU-ROUND-1.0MM","TopLayer","FIDU-ROUND-1.0mm","81.2800","92.7100","0","ROUND FIDUCIAL"
+"FID1","FIDU-ROUND-1.0MM","TopLayer","FIDU-ROUND-1.0mm","81.2800","53.3400","0","ROUND FIDUCIAL"
+"R5","10R","TopLayer","RESC1608X55N","96.2660","81.9578","180","10R res, 0603, 1%, 1/10W"
+"SJ1","NC","TopLayer","SJ_3S_NC12","100.2315","72.6854","0","Solder Jumper, NC"
+"MH1","4-40 MH, Tight Fit","TopLayer","MOUNT_#4_TIGHT","83.0250","99.1274","0","Machine screw 4-40 Mounting Hole"
+"MH2","4-40 MH, Tight Fit","TopLayer","MOUNT_#4_TIGHT","133.0250","99.1274","0","Machine screw 4-40 Mounting Hole"
+"U1","ATSAM4S2AA-MU","TopLayer","QFN50P700X700X100_HS-49M","108.2040","77.0890","180","ATSAM4S, 128KB FLASH, 48QFN"
+"C14","100n","TopLayer","CAPC0603_M","114.4270","68.0720","270","100n, 0603"
+"C13","2u2","TopLayer","CAPC0603_M","112.5220","68.0720","270","2u2, 0603"
+"C12","2u2","TopLayer","CAPC0603_M","116.1088","87.9591","0","2u2, 0603"
+"P1","PCIeX4-GF-2D-1000-1K-O64","TopLayer","PCIeX4-GF-2D-1000-1K-O64","108.0250","96.1274","180","Golden finger, PCIeX4, Dual, Opposite, Pitch 1mm, 64-Position"
+"C8","100n","TopLayer","CAPC0603_M","99.4410","75.9460","180","100n, 0603"
+"C7","100n","TopLayer","CAPC0603_M","116.5250","80.3910","0","100n, 0603"
+"C6","100n","TopLayer","CAPC0603_M","110.6728","67.8732","270","100n, 0603"
+"C2","DNM","TopLayer","CAPC0603_M","108.4580","84.7090","90","DNM"
+"C1","DNM","TopLayer","CAPC0603_M","107.1880","67.9450","270","DNM"
+"C4","100n","TopLayer","CAPC0603_M","125.5570","83.8200","90","100n, 0603"
+"C5","2u2","TopLayer","CAPC0603_M","127.5890","83.7550","90","2u2, 0603"
+"C3","100n","TopLayer","CAPC0603_M","123.2710","83.8200","90","100n, 0603"
+"R1","10R","TopLayer","RESC1608X55N","119.3800","84.4550","0","10R res, 0603, 1%, 1/10W"
+"R4","100R","TopLayer","RESC1608X55N","117.6020","68.7720","180","100R res, 0603, 1%, 1/10W"
+"R3","1k","TopLayer","RESC1608X55N","108.9540","67.6910","270","1k res, 0603, 1%, 1/10W"
+"R2","10R","TopLayer","RESC1608X55N","96.2660","86.2298","270","10R res, 0603, 1%, 1/10W"

@@ -81,38 +81,36 @@ OutputName3=Bill of Materials
 OutputCategory3=Report
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=0
+OutputEnabled3=1
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
-OutputEnabled3_OutputMedium3=0
+OutputEnabled3_OutputMedium3=4
 OutputEnabled3_OutputMedium4=0
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration3_Name1=ColumnNameFormat
 Configuration3_Item1=CaptionAsName
-Configuration3_Name2=Filter
-Configuration3_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration3_Name3=General
-Configuration3_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\altium\newae_template\BOM NewAE.XLT|BatchMode=5|FormWidth=1370|FormHeight=885|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
-Configuration3_Name4=GroupOrder
-Configuration3_Item4=
-Configuration3_Name5=OutputConfigurationParameter1
-Configuration3_Item5=??
-Configuration3_Name6=SortOrder
-Configuration3_Item6=
-Configuration3_Name7=VisibleOrder
-Configuration3_Item7=
+Configuration3_Name2=General
+Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\altium\newae_template\BOM NewAE.XLT|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1370|FormHeight=885|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration3_Name3=GroupOrder
+Configuration3_Item3=Description=True
+Configuration3_Name4=OutputConfigurationParameter1
+Configuration3_Item4=??
+Configuration3_Name5=VisibleOrder
+Configuration3_Item5=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType4=Pick Place
 OutputName4=Generates pick and place files
 OutputCategory4=Assembly
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=0
+OutputEnabled4=1
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
-OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium3=3
 OutputEnabled4_OutputMedium4=0
 OutputDefault4=0
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Package Reference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#18=Name:Memory Size,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#19=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|Column#20=Name:Number of I/Os,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#21=Name:Core Architecture,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#22=Name:Case-EIA,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#23=Name:Rated Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#24=Name:Temperature Range,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#25=Name:Datasheet Version,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#26=Name:PP Rotation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#27=Name:ClassName,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#28=Name:Max Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#29=Name:Min Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#30=Name:Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#31=Name:PP Material Stack,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#32=Name:Component Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#33=Name:Case-Metric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#34=Name:Component Group,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#35=Name:Manufacture 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#36=Name:Frequency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#37=Name:Packaging,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#38=Name:Memory Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#39=Name:Rated Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#40=Name:Mounting Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#41=Name:Number of Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|Column#42=Name:Case/Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#43=Name:Manufacture Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#44=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#45=Name:Mating Connector,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#46=Name:Oscillator Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#47=Name:Pin Count,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#48=Name:Publisher,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44|Column#49=Name:Peripherals,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#50=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#51=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#52=Name:PP Rotation1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43|DocumentPath=C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\hardware_targets\chipwhisperer-target-cw308t\CW312T_ATSAM4S\altium_src\cw312_sam4s.PcbDoc
 OutputType5=Gerber
 OutputName5=Gerber Files
 OutputCategory5=Fabrication
