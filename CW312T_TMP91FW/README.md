@@ -1,0 +1,1 @@
+For (obsolete) TMP91FW27UG chip. This chip contains a bootloader with password.
