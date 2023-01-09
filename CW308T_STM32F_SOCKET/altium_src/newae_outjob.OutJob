@@ -107,10 +107,10 @@ OutputName4=Generates pick and place files
 OutputCategory4=Assembly
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
-OutputEnabled4_OutputMedium3=3
+OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=0
 OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
@@ -127,7 +127,7 @@ OutputEnabled5_OutputMedium3=1
 OutputEnabled5_OutputMedium4=0
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
-Configuration5_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration5_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\hardware_targets\chipwhisperer-target-cw308t\CW308T_STM32F_SOCKET\altium_src\CW308T_STM32FSOCKET.PcbDoc
 OutputType6=NC Drill
 OutputName6=NC Drill Files
 OutputCategory6=Fabrication
@@ -140,7 +140,7 @@ OutputEnabled6_OutputMedium3=2
 OutputEnabled6_OutputMedium4=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
+Configuration6_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\hardware_targets\chipwhisperer-target-cw308t\CW308T_STM32F_SOCKET\altium_src\CW308T_STM32FSOCKET.PcbDoc
 OutputType7=IPC2581
 OutputName7=IPC-2581 Files
 OutputCategory7=Fabrication
@@ -209,7 +209,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\hardware_targets\chipwhisperer-target-cw308t\CW308T_STM32F\altium_src\OUTPUT\FILES\
+OutputFilePath3=C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\hardware_targets\chipwhisperer-target-cw308t\CW308T_STM32F_SOCKET\altium_src\OUTPUT\FILES\
 ReleaseManaged3=0
 OutputBasePath3=OUTPUT\FILES\
 OutputPathMedia3=
@@ -224,7 +224,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for CW308T_STM32F415
+OutputBasePath4=Project Outputs for CW308T_STM32FSOCKET
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -263,7 +263,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=OUTPUT\PRINT\My Company Outjob Template.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\hardware_targets\chipwhisperer-target-cw308t\CW308T_STM32F\altium_src\OUTPUT\FILES\
+RelativeOutputPath3=C:\Users\colin\Dropbox (NewAE Technology Inc)\engineering\hardware_targets\chipwhisperer-target-cw308t\CW308T_STM32F_SOCKET\altium_src\OUTPUT\FILES\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0

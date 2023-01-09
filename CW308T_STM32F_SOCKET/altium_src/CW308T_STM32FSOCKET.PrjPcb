@@ -127,6 +127,66 @@ GenerateClassCluster=0
 DocumentUniqueId=IVNSQDNG
 
 [GeneratedDocument1]
+DocumentPath=OUTPUT\FILES\NC Drill\CW308T_STM32FSOCKET.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_STM32FSOCKET.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_STM32FSOCKET.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_STM32FSOCKET.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_STM32FSOCKET.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_STM32FSOCKET.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_STM32FSOCKET.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_STM32FSOCKET.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_STM32FSOCKET.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_STM32FSOCKET.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_STM32FSOCKET.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=OUTPUT\FILES\NC Drill\CW308T_STM32FSOCKET.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_STM32FSOCKET.REP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=OUTPUT\FILES\Gerber\CW308T_STM32FSOCKET.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=OUTPUT\FILES\NC Drill\CW308T_STM32FSOCKET.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument16]
 DocumentPath=Project Outputs for CW308T_STM32FSOCKET\Design Rule Check - CW308T_STM32FSOCKET.html
 DItemRevisionGUID=
 
