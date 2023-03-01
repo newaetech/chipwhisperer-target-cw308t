@@ -134,7 +134,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PYROGLDV
 
 [Document6]
-DocumentPath=..\..\..\..\altium\Libraries\footprints\DIODESINC_SOT89-5.PcbLib
+DocumentPath=CW312T_A35Output.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -148,36 +148,111 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RUYXUXET
+DocumentUniqueId=
 
-[Document7]
-DocumentPath=..\..\..\..\altium\Libraries\symbols\AP7361C-Y5-13.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\NC Drill\cw312_xc7a35t.DRR
 DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=GACIBWMJ
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Free Documents\NC Drill\cw312_xc7a35t.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\Gerber\cw312_xc7a35t.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Free Documents\Gerber\cw312_xc7a35t.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\Gerber\cw312_xc7a35t.G1
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\Gerber\cw312_xc7a35t.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\Gerber\cw312_xc7a35t.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\Gerber\cw312_xc7a35t.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\Gerber\cw312_xc7a35t.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\Gerber\cw312_xc7a35t.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\Gerber\cw312_xc7a35t.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\Gerber\cw312_xc7a35t.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\Gerber\cw312_xc7a35t.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\Gerber\cw312_xc7a35t.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\Gerber\cw312_xc7a35t.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\NC Drill\cw312_xc7a35t.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Free Documents\NC Drill\cw312_xc7a35t.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\Gerber\cw312_xc7a35t.REP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for Free Documents\Gerber\cw312_xc7a35t.REP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\NC Drill\cw312_xc7a35t.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for Free Documents\NC Drill\cw312_xc7a35t.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for CW312T_XC7A35T_AltiumProject\Design Rule Check - cw312_xc7a35t.html
+DItemRevisionGUID=
 
 [Parameter1]
-Name=PrjLicense
-Value=TBD
+Name=
+Value=
 
 [Parameter2]
-Name=PrjName
-Value=CW312 Target
+Name=PrjRev
+Value=02
 
 [Parameter3]
-Name=PrjRev
-Value=0
+Name=PrjName
+Value=CW31T A35 Target
+
+[Parameter4]
+Name=PrjLicense
+Value=CC SA
 
 [Configuration1]
 Name=Sources
