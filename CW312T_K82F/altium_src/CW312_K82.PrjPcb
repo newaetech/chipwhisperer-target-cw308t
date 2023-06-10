@@ -76,7 +76,7 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -93,7 +93,7 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -198,72 +198,76 @@ DocumentPath=OUTPUT\FILES\NC Drill\CW312_K82_PANEL.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GBL
+DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GBO
+DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GBP
+DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GBS
+DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GM19
+DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GM25
+DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GM19
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GTL
+DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GM25
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GTO
+DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GTP
+DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GTS
+DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=OUTPUT\FILES\NC Drill\CW312_K82_PANEL.LDP
+DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.REP
+DocumentPath=OUTPUT\FILES\NC Drill\CW312_K82_PANEL.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=OUTPUT\FILES\NC Drill\CW312_K82_PANEL.TXT
+DocumentPath=OUTPUT\FILES\Gerber\CW312_K82_PANEL.REP
 DItemRevisionGUID=
 
 [GeneratedDocument30]
+DocumentPath=OUTPUT\FILES\NC Drill\CW312_K82_PANEL.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument31]
 DocumentPath=Project Outputs for CW312_K82\Design Rule Check - cw312_k82.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=PrjLicense
-Value=CC SA
+Name=PrjRev
+Value=03
 
 [Parameter2]
 Name=PrjName
 Value=K82 CW312 Target
 
 [Parameter3]
-Name=PrjRev
-Value=01
+Name=PrjLicense
+Value=CC SA
 
 [Configuration1]
 Name=Default Configuration
@@ -483,6 +487,12 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=PCBDrawing
+OutputName14=Draftsman
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
