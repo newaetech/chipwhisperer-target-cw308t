@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "chipwhisperer")(type "Legacy")(uri "${KIPRJMOD}/lib/chipwhisperer.lib")(options "")(descr ""))
+  (lib (name "N76E003AT20")(type "Legacy")(uri "${KIPRJMOD}/lib/N76E003AT20.lib")(options "")(descr ""))
+)

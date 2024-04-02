@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "chipwhisperer")(type "KiCad")(uri "${KIPRJMOD}/lib/chipwhisperer.pretty")(options "")(descr ""))
+  (lib (name "N76E003AT20")(type "KiCad")(uri "${KIPRJMOD}/lib/N76E003AT20.pretty")(options "")(descr ""))
+)
