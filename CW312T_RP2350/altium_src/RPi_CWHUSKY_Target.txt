@@ -1,0 +1,52 @@
+Board Information Report
+Filename     : C:\Users\cofly\NewAE Technology Inc Dropbox\engineering\hardware_targets\cw-rpi-consulting\RPi_CWHUSKY_Target\RPi_CWHUSKY_Target.PcbDoc
+Date         : 2024-06-06
+Time         : 10:17:27 PM
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 2623.508milsx2391.276mils
+    Components on board, 85
+count : 2
+
+Routing Information
+    Routing completion, 100.00%
+    Connections, 266
+    Connections routed, 266
+    Connections remaining, 0
+count : 4
+
+Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
+    Top Layer, 0, 252, 0, 964, 0, 1, 22, 0
+    Layer 1, 0, 0, 0, 9, 0, 0, 1, 0
+    Layer 2, 0, 0, 0, 305, 0, 0, 4, 0
+    Bottom Layer, 0, 48, 0, 228, 0, 0, 10, 0
+    Mechanical 1, 14, 0, 0, 26, 0, 0, 0, 0
+    Top 3D Body, 0, 0, 0, 12, 0, 0, 0, 3
+    Top Courtyard, 0, 0, 0, 8, 0, 0, 0, 0
+    Top Designator, 0, 0, 0, 0, 0, 0, 0, 0
+    Top Assembly, 0, 0, 0, 12, 3, 0, 0, 0
+    Bottom Designator, 0, 0, 0, 4, 0, 0, 0, 0
+    Mechanical 8, 0, 0, 0, 0, 24, 0, 0, 0
+    Mechanical 13, 1, 0, 0, 444, 0, 0, 0, 63
+    Mechanical 15, 0, 24, 0, 318, 0, 0, 0, 0
+    Top Component Center, 0, 0, 0, 6, 0, 0, 0, 0
+    Bottom Assembly, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Courtyard, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom 3D Body, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Component Center, 0, 0, 0, 0, 0, 0, 0, 0
+    Multi-Layer, 0, 66, 172, 0, 0, 0, 1, 0
+    Top Paste, 0, 0, 0, 0, 0, 1, 0, 0
+    Top Overlay, 9, 0, 0, 326, 178, 1, 9, 0
+    Top Solder, 0, 0, 0, 0, 0, 2, 0, 0
+    Bottom Solder, 0, 0, 0, 0, 0, 5, 0, 0
+    Bottom Overlay, 16, 0, 0, 42, 20, 0, 12, 0
+    Bottom Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Guide, 0, 0, 0, 0, 0, 0, 0, 0
+    Keep-Out Layer, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Drawing, 0, 0, 0, 0, 0, 0, 0, 0
+count : 28
+
+Drill Pairs, Vias
+    Top Layer - Bottom Layer, 172
+count : 1
