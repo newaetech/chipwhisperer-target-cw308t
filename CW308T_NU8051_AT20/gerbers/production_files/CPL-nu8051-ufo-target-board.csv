@@ -1,0 +1,6 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,160.0,-83.0,-90.0,top
+R1,100R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,135.24,-80.53,180.0,top
+R2,51R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,163.1025,-80.965,-90.0,top
+R3,10K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,150.0,-105.1,90.0,top
+U1,N76E003AT20,SOP65P640X120-20N,149.15,-91.45,90.0,top
