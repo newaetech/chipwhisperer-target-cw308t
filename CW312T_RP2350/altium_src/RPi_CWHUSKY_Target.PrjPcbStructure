@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=RP2350_CWHusky.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=RP2350_CWHusky.SchDoc|FileName=RP2350_MCU.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=RP2350_CWHusky.SchDoc|FileName=RP2350_Power.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=RP2350_CWHusky.SchDoc|FileName=RP2350_QSPI.SchDoc|SheetNumber=4
