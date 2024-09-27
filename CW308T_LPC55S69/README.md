@@ -3,12 +3,10 @@
 The LPC556S69 board features the LPC55S69 from NXP. This
 device has a dual-core Cortex-M33 core, which features many
 advanced security features including a PUF and TrustZone-M.
-This board requires an external programmer (such as Atmel
-ICE or OpenOCD) to be used. The example firmware will
+This board requires an external programmer (such as Segger J-Link) to be used. The example firmware will
 bring up the AES peripheral (which does not have DPA countermeasures)
 along with running other normal demos.
-The design files are available as part of the open-source Chip-
-Whisperer example targets.
+The design files are available as part of the open-source ChipWhisperer example targets.
 
 * NXP LPC55S6x in TQFP-100 package.
 * JTAG port on CW308 UFO baseboard breaks out SWD pins to standard 20-pin JTAG header.
@@ -38,3 +36,13 @@ The LPC55S69 target runs from the 1.2v supply on the CW308T for core voltage, an
 
 ---
 
+## Programming Notes
+
+As of September 2024, OpenOCD does not support this target. Confirmed working programming methods are:
+
+* Segger JLink
+
+Potentially working (untested) programming methods:
+
+* Patched OpenOCD: https://review.openocd.org/c/openocd/+/8189
+* PyOCD: https://pyocd.io/
