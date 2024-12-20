@@ -1,0 +1,935 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "61ba16c4-94b2-4af1-8d5d-5bb0ae35f98e")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 186.69 66.04) (xy 196.85 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178f97c1-8140-4d2a-91b4-3241be047d43")
+	)
+	(wire
+		(pts
+			(xy 90.17 116.84) (xy 115.57 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "181bbb8c-43ec-4eb7-9982-d811cd1859f7")
+	)
+	(wire
+		(pts
+			(xy 90.17 35.56) (xy 115.57 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196da171-a484-4c21-a5f0-6d3cab23223b")
+	)
+	(wire
+		(pts
+			(xy 90.17 38.1) (xy 115.57 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eabcfb8-9fdf-4ed7-a0ed-90c625b451b6")
+	)
+	(wire
+		(pts
+			(xy 90.17 109.22) (xy 115.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c03e33-90c9-4e0f-9e3c-41e7e26305bb")
+	)
+	(wire
+		(pts
+			(xy 90.17 68.58) (xy 115.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343e7268-3079-474a-a3cc-06f1c0594fb1")
+	)
+	(wire
+		(pts
+			(xy 90.17 101.6) (xy 115.57 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3490ec18-ed0e-4eaf-89f1-0f99ffc50526")
+	)
+	(wire
+		(pts
+			(xy 90.17 140.97) (xy 115.57 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b246ba-e5ee-44d8-8d19-232793300663")
+	)
+	(wire
+		(pts
+			(xy 90.17 93.98) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d96f669-9fae-4cdf-ae70-d6856955557d")
+	)
+	(wire
+		(pts
+			(xy 90.17 48.26) (xy 115.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee40e28-3d7f-494d-9648-c9505c380974")
+	)
+	(wire
+		(pts
+			(xy 194.31 68.58) (xy 194.31 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f883cb-e39c-4273-8b84-503a8466c978")
+	)
+	(wire
+		(pts
+			(xy 90.17 58.42) (xy 115.57 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ed9291-17c2-453e-baca-b144373051de")
+	)
+	(wire
+		(pts
+			(xy 196.85 97.79) (xy 186.69 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716196e6-33c7-4cc2-8a15-d6c4e0020ed0")
+	)
+	(wire
+		(pts
+			(xy 199.39 63.5) (xy 199.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727c10dd-73ed-424c-92c5-42ed03ded18a")
+	)
+	(wire
+		(pts
+			(xy 90.17 106.68) (xy 115.57 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f193c27-a923-4767-9e6b-5e08f27f0428")
+	)
+	(wire
+		(pts
+			(xy 199.39 100.33) (xy 186.69 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8399f953-c0b8-4fea-9f14-9b195c33f88a")
+	)
+	(wire
+		(pts
+			(xy 90.17 148.59) (xy 115.57 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d057ac3-0143-460e-91e7-fadeca365aad")
+	)
+	(wire
+		(pts
+			(xy 90.17 104.14) (xy 115.57 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954cc8b4-144b-4677-aaab-ec17d49d60f1")
+	)
+	(wire
+		(pts
+			(xy 194.31 95.25) (xy 186.69 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a664654a-556d-4fd2-9c0a-743a9ce2b8f3")
+	)
+	(wire
+		(pts
+			(xy 90.17 132.08) (xy 115.57 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9f7cbd-8f30-473b-bcaa-5c79a4751274")
+	)
+	(wire
+		(pts
+			(xy 90.17 124.46) (xy 115.57 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3fd4adf-3f87-4cca-af2e-3de15edd38cd")
+	)
+	(wire
+		(pts
+			(xy 90.17 50.8) (xy 115.57 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb479721-27df-4e1f-9ca0-eb3325af389e")
+	)
+	(wire
+		(pts
+			(xy 186.69 68.58) (xy 194.31 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf384305-a84d-4173-8798-c0398d3f9086")
+	)
+	(wire
+		(pts
+			(xy 90.17 60.96) (xy 115.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13d0190-c873-4814-8831-9e5409c25d23")
+	)
+	(wire
+		(pts
+			(xy 90.17 33.02) (xy 115.57 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3950cdd-5a94-4f77-b688-c0351cfbe39b")
+	)
+	(wire
+		(pts
+			(xy 196.85 66.04) (xy 196.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76d4781-a09f-427d-92b6-000937bf6f7e")
+	)
+	(wire
+		(pts
+			(xy 201.93 102.87) (xy 186.69 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90e599d-0221-4a61-be29-4e625b4366a5")
+	)
+	(wire
+		(pts
+			(xy 90.17 40.64) (xy 115.57 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1375cc-43ca-43ff-ad77-546030f95507")
+	)
+	(wire
+		(pts
+			(xy 186.69 60.96) (xy 201.93 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9de3bfa-ff09-45c6-981b-f0a51ab4aedd")
+	)
+	(wire
+		(pts
+			(xy 186.69 63.5) (xy 199.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f17e187b-8d25-48c0-8bff-5dab1254d23f")
+	)
+	(wire
+		(pts
+			(xy 201.93 60.96) (xy 201.93 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3851212-8200-4623-b845-2a5043b6a86a")
+	)
+	(sheet
+		(at 115.57 86.36)
+		(size 71.12 71.12)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "204d5726-82d5-46a8-ac23-59e2693d7cc1")
+		(property "Sheetname" "Clock Reset Drivers and CAN Transceivers"
+			(at 115.57 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Clock_Reset_Drivers.kicad_sch"
+			(at 115.57 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TCK" input
+			(at 115.57 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "233caee0-21a3-4503-833c-29237f1b33f9")
+		)
+		(pin "TDI" input
+			(at 115.57 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d844cbe-7484-4066-8ab9-e30f5e8c457b")
+		)
+		(pin "TDO" input
+			(at 115.57 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "249cf713-aac1-4787-b97e-c448ac21fd9d")
+		)
+		(pin "TMS" input
+			(at 115.57 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4421d242-7e8a-4b7d-9f3b-524a9d92c93d")
+		)
+		(pin "JCOMP" input
+			(at 115.57 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ad6c0e9e-4e07-4217-9cc4-31edfb68f45e")
+		)
+		(pin "BOOTCFG1" input
+			(at 115.57 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c961e82f-6f53-4f26-ba57-4f27240c31c6")
+		)
+		(pin "CLKIN" input
+			(at 115.57 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4f05f74a-2291-426c-bd33-d49c7ac66c7a")
+		)
+		(pin "EVTI" input
+			(at 115.57 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9479216c-92e8-456a-8c86-093fbaf5fcbd")
+		)
+		(pin "LED1" input
+			(at 115.57 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a2aaad8e-c0b2-4efd-9439-7cb8d1a9db67")
+		)
+		(pin "nRST" input
+			(at 115.57 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1f528ca0-8755-4e0f-9e33-1e63d6eca660")
+		)
+		(pin "CANBTX" input
+			(at 186.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ddab2c7d-4a01-4e92-871f-e0c63b23dd7d")
+		)
+		(pin "CANBRX" input
+			(at 186.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72abaf8b-4a40-4e43-a449-d20bd623fc75")
+		)
+		(pin "CANARX" input
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9054f8ee-66bc-464f-8103-abc505312e48")
+		)
+		(pin "CANATX" input
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "512812b0-419c-411a-b3ee-9ec19c7b5a52")
+		)
+		(instances
+			(project "CW312T-MPC5676R"
+				(path "/61ba16c4-94b2-4af1-8d5d-5bb0ae35f98e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 19.05)
+		(size 71.12 57.15)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b0d3ee0f-c02d-44f7-9c80-ad9f8d717963")
+		(property "Sheetname" "CPU IO Bank 2"
+			(at 115.57 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU_IO_Bank_2.kicad_sch"
+			(at 115.57 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO4" input
+			(at 115.57 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "78fea6e4-58fa-436a-9f65-a79e941ed7db")
+		)
+		(pin "GPIO3" input
+			(at 115.57 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c529c4e2-8207-4bf3-a667-6ba43efd2318")
+		)
+		(pin "CANBRX" input
+			(at 186.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "80147440-e2d4-44fe-8678-9c783457a83d")
+		)
+		(pin "UART_RX" input
+			(at 115.57 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7261b530-9f16-48df-af6a-9fc514d41560")
+		)
+		(pin "CANATX" input
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e8844529-d8d9-41e2-b043-c50f65206f44")
+		)
+		(pin "CANARX" input
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d76d78e7-747d-4381-a49f-e09bc94f9c36")
+		)
+		(pin "UART_TX" input
+			(at 115.57 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e3ebf26-ff4d-46d3-97b7-6dde6a307964")
+		)
+		(pin "CANBTX" input
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "711450fb-e0e3-48b7-8d0e-af8aa9fb3c94")
+		)
+		(pin "CS" input
+			(at 115.57 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "50634b2f-804b-4191-8744-7e28f2770984")
+		)
+		(pin "MOSI" input
+			(at 115.57 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a6df7eb6-8657-4b80-bed7-4b1c3d341f50")
+		)
+		(pin "SCK" input
+			(at 115.57 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "df3ce37f-c8fa-42aa-98a4-2e7cbe4b5ebc")
+		)
+		(pin "MISO" input
+			(at 115.57 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1cd4eb8-fcbc-4d25-97b0-9ec5830609b6")
+		)
+		(pin "HDR6" input
+			(at 115.57 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf443d24-78b0-4fc2-be1e-bd9ddacecf84")
+		)
+		(instances
+			(project "CW312T-MPC5676R"
+				(path "/61ba16c4-94b2-4af1-8d5d-5bb0ae35f98e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 19.05)
+		(size 71.12 138.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc003759-8a72-4396-922a-2d893c508095")
+		(property "Sheetname" "CW312T-Connector"
+			(at 19.05 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CW312T-Connector.kicad_sch"
+			(at 19.05 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UART_RX" input
+			(at 90.17 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5532b50a-bd61-4f31-bfdf-bd9aea4fb953")
+		)
+		(pin "UART_TX" input
+			(at 90.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "01dee3fc-b383-4f1d-aee2-7764f135804b")
+		)
+		(pin "EVTI" input
+			(at 90.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4206572b-e84e-48d8-968c-93bf9c1e87c4")
+		)
+		(pin "HDR6" input
+			(at 90.17 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d7a933d6-9272-421a-8765-f5ea8cb7c439")
+		)
+		(pin "JCOMP" input
+			(at 90.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "af7c79fe-459f-4b60-be1f-1d64a15cf568")
+		)
+		(pin "TDI" input
+			(at 90.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e0d2f98d-8d6f-4d9b-836a-8e8f1a6b586f")
+		)
+		(pin "TDO" input
+			(at 90.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "664a270f-aecc-4b9f-9b53-a591bb494951")
+		)
+		(pin "CLKIN" input
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cae42d5f-c310-419b-8083-46f9c3b0b705")
+		)
+		(pin "TMS" input
+			(at 90.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6a7b05ac-613e-4594-b0aa-520775bb9f79")
+		)
+		(pin "TCK" input
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ac515d9c-1ad6-42dc-88ac-7ca9c21d15bc")
+		)
+		(pin "MISO" input
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f59ffeaf-2d63-4222-9c8d-f97e077de319")
+		)
+		(pin "MOSI" input
+			(at 90.17 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "64105e3e-b041-4022-bad6-5a586b5dd703")
+		)
+		(pin "CS" input
+			(at 90.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7373142e-cab3-49bb-a881-df12e5826764")
+		)
+		(pin "BOOTCFG1" input
+			(at 90.17 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ca59dd26-3edf-464b-affa-ce15f7a41e63")
+		)
+		(pin "SCK" input
+			(at 90.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "393cf981-a6b7-4d35-8449-7a32b9bcf778")
+		)
+		(pin "GPIO4" input
+			(at 90.17 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2c071a53-d398-4ef0-83ad-23a1bb81cecd")
+		)
+		(pin "nRST" input
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b6c5b169-2791-43f3-a4e2-5729dd74f9e2")
+		)
+		(pin "LED1" input
+			(at 90.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0f58b6e9-9a4f-44fd-a6a3-b8f7418b79dd")
+		)
+		(pin "GPIO3" input
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9fa17ced-6d2b-4a96-89ad-934344e63c9c")
+		)
+		(instances
+			(project "CW312T-MPC5676R"
+				(path "/61ba16c4-94b2-4af1-8d5d-5bb0ae35f98e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.71 62.23)
+		(size 50.8 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bcdd21f4-84e2-4a43-85aa-f99fe951ab44")
+		(property "Sheetname" "MCU Power"
+			(at 219.71 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_Power.kicad_sch"
+			(at 219.71 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CW312T-MPC5676R"
+				(path "/61ba16c4-94b2-4af1-8d5d-5bb0ae35f98e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,122 @@
+(footprint "IS25WP032D-JBLE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.1 -29.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fef722ef-875d-4aee-87e0-282e00e107f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "IS25WP032D-JBLE"
+		(at -0.1 -28.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "74e6cc19-6fb2-4a3e-b70e-15eb7d9c246b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.1 -29.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aaba159e-afad-42d5-b178-c8d6900ae54d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.1 -29.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e4e091d-1042-4021-a404-c8a501992e3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.1 -29.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb94ee17-c009-456f-8a43-b9f04ac45dc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.64 -2.64)
+		(end -2.64 2.64)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d9e424f5-69c7-46d0-acf4-9b8522e00508")
+	)
+	(fp_line
+		(start -2.64 -2.64)
+		(end 2.64 -2.64)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1139a299-23be-4616-a371-cb30184d40d0")
+	)
+	(fp_line
+		(start -2.64 2.64)
+		(end 2.64 2.64)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9a98effa-22f2-42c4-ac19-809fa2f27643")
+	)
+	(fp_line
+		(start 2.64 2.64)
+		(end 2.64 -2.64)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4f204f48-0cf0-465e-831a-5b7f2f0ebb0d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 -26.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "681d122b-48f4-49ee-bff3-15cd98f55bfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)

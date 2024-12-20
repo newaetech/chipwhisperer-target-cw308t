@@ -1,0 +1,1238 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ece4ddd9-bce6-488f-8cc3-9727cdb2c227")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Silkscreen_Symbols:CE_Free"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at -2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CE Symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Silkscrren_Symbols:CE-Logo_8.5x6mm_SilkScreen"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
+		(symbol "Silkscreen_Symbols:Pb_Free"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Pb_Free Symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Silkscrren_Symbols:Pb_Free_8.0x8.0mm_SilkScreen"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
+		(symbol "Silkscreen_Symbols:UKCA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UKCA symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Silkscrren_Symbols:UKCA-Logo_8x8mm_SilkScreen"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
+		(symbol "Silkscreen_Symbols:WEEE"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at -1.27 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WEEE SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Silkscrren_Symbols:WEEE-Logo_5.6x8mm_SilkScreen"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 137.16 133.35) (xy 161.29 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1046fd52-d422-428a-9848-d7cc83e8956b")
+	)
+	(wire
+		(pts
+			(xy 137.16 123.19) (xy 161.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14648ab6-0c64-4e80-a2dd-db798107fc49")
+	)
+	(wire
+		(pts
+			(xy 137.16 118.11) (xy 161.29 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180f5d5c-a101-4dc9-a695-cb1f73d42cd3")
+	)
+	(wire
+		(pts
+			(xy 137.16 77.47) (xy 161.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3eff3e-16e6-4a83-b23b-1261517736e6")
+	)
+	(wire
+		(pts
+			(xy 137.16 105.41) (xy 161.29 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50819c20-955e-44f7-9f80-4dd0100d78f3")
+	)
+	(wire
+		(pts
+			(xy 137.16 67.31) (xy 161.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59eadde4-a8b5-495b-9a8c-3d025df146ca")
+	)
+	(wire
+		(pts
+			(xy 137.16 120.65) (xy 161.29 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f97f11-2fc6-4220-9d15-d7684008d438")
+	)
+	(wire
+		(pts
+			(xy 137.16 64.77) (xy 161.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72caed72-f952-4761-b50f-1bdef81635bd")
+	)
+	(wire
+		(pts
+			(xy 137.16 57.15) (xy 161.29 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c7ac34-b7dd-4da3-ac44-aba512b26d84")
+	)
+	(wire
+		(pts
+			(xy 137.16 125.73) (xy 161.29 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c964e79-24c6-450c-bef8-641af6593a5f")
+	)
+	(wire
+		(pts
+			(xy 137.16 100.33) (xy 161.29 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d900920-3d09-4c4e-a199-627331d2a2fe")
+	)
+	(wire
+		(pts
+			(xy 137.16 92.71) (xy 161.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c0afa9-780e-4e7a-b901-9dae4580c4ed")
+	)
+	(wire
+		(pts
+			(xy 137.16 95.25) (xy 161.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44d059d-e580-4947-bcc1-6c68578fa4af")
+	)
+	(wire
+		(pts
+			(xy 137.16 69.85) (xy 161.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa05059c-65d1-411f-a219-2c1b3b3dfb63")
+	)
+	(wire
+		(pts
+			(xy 137.16 107.95) (xy 161.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30931eb-a031-4660-b2e4-2171bafd3fc7")
+	)
+	(wire
+		(pts
+			(xy 137.16 102.87) (xy 161.29 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb35e9e7-e265-495b-b7a6-793c8369e7d5")
+	)
+	(wire
+		(pts
+			(xy 137.16 135.89) (xy 161.29 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1053e9b-89f1-4c24-8505-1dcc8988cbdf")
+	)
+	(wire
+		(pts
+			(xy 137.16 110.49) (xy 161.29 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc71768-eb4e-4520-b2d7-8acc277e0ff8")
+	)
+	(wire
+		(pts
+			(xy 137.16 54.61) (xy 161.29 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d237e895-bab8-4322-97cb-ec0d594f0d74")
+	)
+	(wire
+		(pts
+			(xy 137.16 85.09) (xy 161.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db541642-5ebb-4823-84f3-d7288626c034")
+	)
+	(wire
+		(pts
+			(xy 137.16 97.79) (xy 161.29 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6865f6-5c9e-4414-8581-d2beeef21f35")
+	)
+	(wire
+		(pts
+			(xy 137.16 138.43) (xy 161.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b3c875-449c-44a7-aff0-22c9e90bcf2d")
+	)
+	(wire
+		(pts
+			(xy 137.16 140.97) (xy 161.29 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ec9f09-71ba-4688-a38d-b32f1cafa1e5")
+	)
+	(text "changed some nets to global labels should there be any indication of the connections of global labels between sheets on here"
+		(exclude_from_sim no)
+		(at 40.386 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "defa6559-1a5b-4fc3-992a-72a25377bab7")
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:Pb_Free")
+		(at -34.29 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acd4b91d-79de-4665-9cf6-f9abad54518f")
+		(property "Reference" "PCB2"
+			(at -31.75 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pb_Free Symbol"
+			(at -31.75 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:Pb_Free_8.0x8.0mm_SilkScreen"
+			(at -34.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -34.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -34.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/ece4ddd9-bce6-488f-8cc3-9727cdb2c227"
+					(reference "PCB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:UKCA")
+		(at -34.29 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b04e1f5e-eb2c-4be0-bc25-9052e35521f6")
+		(property "Reference" "PCB3"
+			(at -31.75 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UKCA symbol"
+			(at -31.75 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:UKCA-Logo_8x8mm_SilkScreen"
+			(at -34.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -34.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -34.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/ece4ddd9-bce6-488f-8cc3-9727cdb2c227"
+					(reference "PCB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:WEEE")
+		(at -34.29 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcea173e-84fb-480e-9398-a1f4c55ff26a")
+		(property "Reference" "PCB4"
+			(at -31.75 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WEEE SYMBOL"
+			(at -31.75 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:WEEE-Logo_5.6x8mm_SilkScreen"
+			(at -34.29 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -34.29 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -34.29 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/ece4ddd9-bce6-488f-8cc3-9727cdb2c227"
+					(reference "PCB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:CE_Free")
+		(at -34.29 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc0d9888-f56e-40c1-9be9-80ff76750450")
+		(property "Reference" "PCB1"
+			(at -31.75 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CE Symbol"
+			(at -31.75 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:CE-Logo_8.5x6mm_SilkScreen"
+			(at -34.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -34.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -34.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/ece4ddd9-bce6-488f-8cc3-9727cdb2c227"
+					(reference "PCB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 49.53)
+		(size 83.82 97.79)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c7b6d59-2095-41d5-a8e3-3e94e254f14b")
+		(property "Sheetname" "CW312T_Connector"
+			(at 161.29 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CW312T_Connector.kicad_sch"
+			(at 161.29 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SHUNTH" input
+			(at 161.29 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f196c9c7-fca0-499c-966a-3146a6ddc6ab")
+		)
+		(pin "SHUNTL" input
+			(at 161.29 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a9f4e453-1b37-463e-ab35-3ec7657c7cee")
+		)
+		(pin "LED3" input
+			(at 161.29 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ef28a4d8-7762-4f84-ab56-af6400e26ab7")
+		)
+		(pin "LED2" input
+			(at 161.29 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2e591007-d5f8-408c-b15e-a84431191663")
+		)
+		(pin "LED1" input
+			(at 161.29 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa23fa45-92fd-4981-b1f8-9e78e60f96df")
+		)
+		(pin "GPIO3" input
+			(at 161.29 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "993271d2-bbb5-4ff2-844e-f9d39f0380b4")
+		)
+		(pin "GPIO1_TX" input
+			(at 161.29 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f913a526-07d5-41d7-848e-2104232be955")
+		)
+		(pin "SCK" input
+			(at 161.29 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4035ca9-97f0-42d8-b449-77ea97c1dfde")
+		)
+		(pin "GPIO4" input
+			(at 161.29 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "21776dc1-7774-4b81-8d30-57a93ae76f39")
+		)
+		(pin "GPIO2_RX" input
+			(at 161.29 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4f20f1a4-e070-4bc2-a3a6-6cdc6f6ee849")
+		)
+		(pin "MOSI" input
+			(at 161.29 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5f6dd92d-c3dd-4f3a-b593-3fd7abf6834e")
+		)
+		(pin "CS" input
+			(at 161.29 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f6ea14bf-f0a2-4303-8231-3859a49f2e94")
+		)
+		(pin "CLKIN" input
+			(at 161.29 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5d94c74b-c496-4ab9-b186-f9456ec3630a")
+		)
+		(pin "MISO" input
+			(at 161.29 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5df79780-7b91-4ddb-9b14-b1b0923594f8")
+		)
+		(pin "HDR7" input
+			(at 161.29 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a640ddc-81f6-494c-869f-6bf82001815e")
+		)
+		(pin "HDR1" input
+			(at 161.29 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4352b3a2-8570-4297-b01b-f0b4ac236a07")
+		)
+		(pin "HDR3" input
+			(at 161.29 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4a2de34-cd52-476b-8b86-d6541074648b")
+		)
+		(pin "HDR6" input
+			(at 161.29 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1cd99d53-341e-43ea-915f-5a7d00a75a30")
+		)
+		(pin "HDR5" input
+			(at 161.29 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "53888915-1afd-467c-bcae-4c28156f7776")
+		)
+		(pin "HDR4" input
+			(at 161.29 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "512cb6b2-c4a4-44c6-b8ca-da66e6271d20")
+		)
+		(pin "HDR2" input
+			(at 161.29 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7008141a-2f4d-412e-acd9-6f3ae9a9a873")
+		)
+		(pin "HDR8" input
+			(at 161.29 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "59862f2c-9c9e-4248-8e5b-abebf7918e83")
+		)
+		(pin "JTAG_TRST" input
+			(at 161.29 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "323a8b55-c631-42e7-bd41-9375255d6e5f")
+		)
+		(instances
+			(project "CW312T-K82F"
+				(path "/ece4ddd9-bce6-488f-8cc3-9727cdb2c227"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 49.53)
+		(size 83.82 97.79)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d497c731-ecbc-4d5d-ad4c-a9fe03a8c88f")
+		(property "Sheetname" "K82"
+			(at 53.34 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "K82.kicad_sch"
+			(at 53.34 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SHUNTL" input
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7bd9a1de-89c1-4682-94a6-a9556522f272")
+		)
+		(pin "SHUNTH" input
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3ab29fb3-5ce4-4605-b6b3-4e7efb8775e8")
+		)
+		(pin "HDR3" input
+			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "10096f46-7a31-44f1-9d47-7c831c96afac")
+		)
+		(pin "HDR2" input
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "25a56716-d83d-4ca7-b1ef-80331dce7f02")
+		)
+		(pin "HDR4" input
+			(at 137.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "93df9fe1-1ac8-4691-b76f-3011703fba5b")
+		)
+		(pin "HDR1" input
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7769b7f2-ff93-4eff-9601-1645762352af")
+		)
+		(pin "LED2" input
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fa2722df-26ff-40be-b724-2ce38bfb2a1d")
+		)
+		(pin "LED1" input
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ee6f7c96-162c-4051-ba3d-954032939f77")
+		)
+		(pin "LED3" input
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "68e2a84b-1e4e-490c-88c2-b1995ffc51e0")
+		)
+		(pin "CLKIN" input
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "57f2c956-1838-4138-b071-250e8d4f6cee")
+		)
+		(pin "JTAG_TRST" input
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83171125-42b4-40b7-98d4-2a87972417f1")
+		)
+		(pin "HDR6" input
+			(at 137.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf3cc9da-630f-46fa-bd97-a71ef7b0a776")
+		)
+		(pin "HDR5" input
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "532e1219-82ef-4639-ba2f-564351268e4a")
+		)
+		(pin "HDR7" input
+			(at 137.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b7fd029-0351-4c61-945e-aff9cddec233")
+		)
+		(pin "HDR8" input
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1bd49aea-1c9d-4e57-8c5c-d6e0a89f44a7")
+		)
+		(pin "GPIO4" input
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f6656423-39da-46c7-b97f-e84f3bb7b39a")
+		)
+		(pin "GPIO1_TX" input
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0f93f7e4-f7b3-438d-a5c5-a282940ccead")
+		)
+		(pin "GPIO2_RX" input
+			(at 137.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4666a2d6-d9f8-4c06-9667-8deafb2780c6")
+		)
+		(pin "CS" input
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6fd8710e-11c4-4dde-a786-e721b9c26970")
+		)
+		(pin "GPIO3" input
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b69c9ac-9b10-4baf-83c1-23e3f71cc3ea")
+		)
+		(pin "MISO" input
+			(at 137.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "45b0b4cb-292e-4e92-a600-60d461daa536")
+		)
+		(pin "SCK" input
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "70c449b0-debc-4a65-9834-988108b06344")
+		)
+		(pin "MOSI" input
+			(at 137.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e297a025-ecb4-4496-9271-1b3f42a57ee2")
+		)
+		(instances
+			(project "CW312T-K82F"
+				(path "/ece4ddd9-bce6-488f-8cc3-9727cdb2c227"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

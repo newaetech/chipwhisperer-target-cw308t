@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c2a925aa-0a0b-4d0a-bd46-e7ddeb5071bd")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 161.29 30.48)
+		(size 77.47 111.76)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "681aeee8-1962-4896-9c2c-b1d5134c0215")
+		(property "Sheetname" "ATmega325PA-AU"
+			(at 161.29 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ATmega325PA-AU.kicad_sch"
+			(at 161.29 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CW312T-87C51"
+				(path "/c2a925aa-0a0b-4d0a-bd46-e7ddeb5071bd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 31.75)
+		(size 80.01 111.76)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb6bc307-6d9c-4f16-a984-64f714ed27c7")
+		(property "Sheetname" "CW312T_Connections"
+			(at 35.56 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CW312T_Connections.kicad_sch"
+			(at 35.56 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CW312T-87C51"
+				(path "/c2a925aa-0a0b-4d0a-bd46-e7ddeb5071bd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

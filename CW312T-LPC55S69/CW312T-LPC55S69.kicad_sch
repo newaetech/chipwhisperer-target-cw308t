@@ -1,0 +1,539 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "63ea81a9-a6c6-4ca7-8246-91962046f428")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 119.38 113.03) (xy 142.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220e7361-d85a-4e1d-be6f-cd4afc9e6b16")
+	)
+	(wire
+		(pts
+			(xy 119.38 129.54) (xy 142.24 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3358b12a-3eca-49ad-a889-d7c1c6c16372")
+	)
+	(wire
+		(pts
+			(xy 119.38 110.49) (xy 142.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f4c337-0647-484f-91e8-6ee2370692d8")
+	)
+	(wire
+		(pts
+			(xy 119.38 68.58) (xy 142.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a18bc1-72b0-46f4-afa4-b5d0ce733430")
+	)
+	(wire
+		(pts
+			(xy 119.38 87.63) (xy 142.24 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad7ea76-1939-4da4-89df-dade1b6aefb8")
+	)
+	(wire
+		(pts
+			(xy 119.38 90.17) (xy 142.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6862acda-549d-4f5f-9bba-e629654ea39f")
+	)
+	(wire
+		(pts
+			(xy 119.38 118.11) (xy 142.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a12c988-2c81-480e-ba3f-7ff5aea57bb8")
+	)
+	(wire
+		(pts
+			(xy 119.38 66.04) (xy 142.24 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eaed7ff-33dd-4300-bb65-d6c175a896b2")
+	)
+	(wire
+		(pts
+			(xy 119.38 115.57) (xy 142.24 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a374f221-f459-435c-8170-ec9a3ee99df3")
+	)
+	(wire
+		(pts
+			(xy 119.38 92.71) (xy 142.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be782e9f-f125-445c-8950-a0a543bd1d1b")
+	)
+	(wire
+		(pts
+			(xy 119.38 77.47) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3ce5cc-07f8-44d2-97ec-6b3544287b41")
+	)
+	(wire
+		(pts
+			(xy 119.38 80.01) (xy 142.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3a5a37-d3f6-42d1-a626-981c3e412be3")
+	)
+	(wire
+		(pts
+			(xy 119.38 101.6) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ba7019-f82d-4e8f-8349-e619dcfe392c")
+	)
+	(wire
+		(pts
+			(xy 119.38 138.43) (xy 142.24 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb5105e-8fcc-4637-b241-2beed67fa40b")
+	)
+	(wire
+		(pts
+			(xy 119.38 127) (xy 142.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee692ba4-ccf0-4df3-9e9c-39d461c82a2b")
+	)
+	(sheet
+		(at 142.24 54.61)
+		(size 82.55 91.44)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59b33710-7be6-40ab-866c-4f5fff0c231f")
+		(property "Sheetname" "Microcontroller"
+			(at 142.24 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 142.24 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWDIO" input
+			(at 142.24 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ee8f22d6-76d6-4a25-8c5c-eed9ea3799da")
+		)
+		(pin "BOOTMODE_TDI" input
+			(at 142.24 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2a23a270-3bb3-44b9-9654-0828dd15d430")
+		)
+		(pin "SWCLK" input
+			(at 142.24 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eedd2ee2-ff62-4426-92ee-3de824fbad63")
+		)
+		(pin "GPIO1" input
+			(at 142.24 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "83d6d015-5549-4dd8-95dc-ab39d968bbc2")
+		)
+		(pin "LED3" input
+			(at 142.24 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f1c71831-4a69-40f3-8cfc-cc25b053f922")
+		)
+		(pin "LED2" input
+			(at 142.24 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e799d140-6a73-4bdc-8101-52772cf1bdd2")
+		)
+		(pin "GPIO3" input
+			(at 142.24 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "209c8941-714e-440d-ac93-992933c569be")
+		)
+		(pin "GPIO2" input
+			(at 142.24 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "40e3c3cb-92fb-4ecf-a06f-6420770cf6d8")
+		)
+		(pin "GPIO4" input
+			(at 142.24 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ce337dd-4403-412f-9b29-86c549230537")
+		)
+		(pin "LED1" input
+			(at 142.24 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36e77b68-6818-4a5c-aee1-243e7aa9eac5")
+		)
+		(pin "CLKIN" input
+			(at 142.24 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4527d85-f645-4e67-98fb-388f9be3b8c2")
+		)
+		(pin "nRST" input
+			(at 142.24 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57d4ff8c-ebf0-40b8-8fa9-e1ccbee6662e")
+		)
+		(pin "SHUNTL" input
+			(at 142.24 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8eef274-9286-4ba2-a16e-b577677005dd")
+		)
+		(pin "SHUNTH" input
+			(at 142.24 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d3f1af23-291d-4210-896e-8c0363c5ebac")
+		)
+		(pin "CLKOUT" input
+			(at 142.24 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "45af100d-3eba-45b5-8516-52f1123ea2e7")
+		)
+		(instances
+			(project "CW312T-LPC55S69"
+				(path "/63ea81a9-a6c6-4ca7-8246-91962046f428"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 54.61)
+		(size 82.55 91.44)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5fb91df7-02f2-4cb8-ae02-52e20a2128bf")
+		(property "Sheetname" "CW312T_Connections"
+			(at 36.83 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CW312T_Connections.kicad_sch"
+			(at 36.83 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SHUNTL" input
+			(at 119.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7b222843-b5ec-4919-80f7-5fe076231c2f")
+		)
+		(pin "SHUNTH" input
+			(at 119.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5288a771-ba5d-43ac-b7d5-edbb7bd12227")
+		)
+		(pin "LED1" input
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f4a5e588-2dda-49c8-a119-78780d74eb53")
+		)
+		(pin "LED2" input
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e79ee6db-6d95-44f7-98fa-eb0d3459dea2")
+		)
+		(pin "LED3" input
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "383d7a8c-86a5-4f40-912d-09de15314605")
+		)
+		(pin "nRST" input
+			(at 119.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3d8b538e-9591-4f8e-89ef-1df999aa7b6a")
+		)
+		(pin "GPIO1" input
+			(at 119.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7375a3bd-699d-44e4-8331-12b39d55534c")
+		)
+		(pin "GPIO2" input
+			(at 119.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "88692eab-20a6-4313-aebc-971d6b19569d")
+		)
+		(pin "GPIO3" input
+			(at 119.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a93de76b-26ed-411c-862e-a13f8038896a")
+		)
+		(pin "GPIO4" input
+			(at 119.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d184364d-0068-4373-8712-5bcda2d45eb9")
+		)
+		(pin "BOOTMODE_TDI" input
+			(at 119.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d369d1f-f2f9-45e3-af61-aca9aeb71c39")
+		)
+		(pin "CLKIN" input
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9638cc09-5694-45d8-91cd-b07740d08fba")
+		)
+		(pin "SWDIO" input
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7ba5c443-d322-47fa-b8cf-8524caf19c00")
+		)
+		(pin "SWCLK" input
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d897a478-0c95-4870-bbee-2aaecf908460")
+		)
+		(pin "CLKOUT" input
+			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d9744565-f073-4a14-9974-b59c2d51ae61")
+		)
+		(instances
+			(project "CW312T-LPC55S69"
+				(path "/63ea81a9-a6c6-4ca7-8246-91962046f428"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,8 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP","Manufacturer","Manufacturer Part Number","Supplier 1","Supplier 1 Part Number"
+"C1,C2,C4,C5,C6,C7,C8,C9","CAP_100n_50V_0603","https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf","Capacitor_SMD:C_0603_1608Metric","8","","KEMET","C0603C104M5RACTU","DigiKey","399-C0603C104M5RACTUCT-ND"
+"C3","CAP_2u2_16V_0603","https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf","Capacitor_SMD:C_0603_1608Metric","1","","KEMET","C0603C225K4PAC7867","DigiKey","399-C0603C225K4PAC7867CT-ND"
+"J1","HDR_6_2.54","https://app.adam-tech.com/products/download/data_sheet/202065/ph2-xx-ua-data-sheet.pdf","Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Vertical","1","","Adam Tech","PH2-06-UA","DigiKey","2057-PH2-06-UA-ND"
+"R1,R2,R3","10K","https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf","Resistor_SMD:R_0603_1608Metric","3","","YAGEO","RC0603JR-0710KL","DigiKey","311-10KGRCT-ND"
+"R4","22R_0603","https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf","Resistor_SMD:R_0603_1608Metric","1","","YAGEO","RC0603JR-0722RL","DigiKey","311-22GRCT-ND"
+"R5","51R_0603","https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf","Resistor_SMD:R_0603_1608Metric","1","","YAGEO","RC0603JR-0751RL","DigiKey","311-51GRCT-ND"
+"U1","STM32F100RBT6B","https://www.st.com/content/ccc/resource/technical/document/datasheet/dd/87/fd/2a/fb/3f/48/5c/CD00251732.pdf/files/CD00251732.pdf/jcr:content/translations/en.CD00251732.pdf","Package_QFP:TQFP-64_10x10mm_P0.5mm","1","","STMicroelectronics","STM32F100RBT6B","DigiKey","497-10494-ND"

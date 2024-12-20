@@ -1,0 +1,1168 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3a5d4ac2-6e78-4735-b22c-b99217f3b036")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Silkscreen_Symbols:CE_Free"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at -2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CE Symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Silkscrren_Symbols:CE-Logo_8.5x6mm_SilkScreen"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
+		(symbol "Silkscreen_Symbols:Pb_Free"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Pb_Free Symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Silkscrren_Symbols:Pb_Free_8.0x8.0mm_SilkScreen"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
+		(symbol "Silkscreen_Symbols:UKCA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UKCA symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Silkscrren_Symbols:UKCA-Logo_8x8mm_SilkScreen"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
+		(symbol "Silkscreen_Symbols:WEEE"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at -1.27 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WEEE SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Silkscrren_Symbols:WEEE-Logo_5.6x8mm_SilkScreen"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 120.65 111.76) (xy 171.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c3cebaa-6d2b-4a15-b0c3-e43ad62997c8")
+	)
+	(wire
+		(pts
+			(xy 120.65 71.12) (xy 171.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8e124c-b626-402b-97a0-6c1814b051c0")
+	)
+	(wire
+		(pts
+			(xy 120.65 83.82) (xy 171.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2008f1a6-aebf-4a11-b5f2-ad156ae95461")
+	)
+	(wire
+		(pts
+			(xy 120.65 96.52) (xy 171.45 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b054a6-2af3-4ebb-b3ce-e1097b30550a")
+	)
+	(wire
+		(pts
+			(xy 120.65 109.22) (xy 171.45 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8383b8-a8bc-4e25-910a-d1d5ae9635d1")
+	)
+	(wire
+		(pts
+			(xy 120.65 78.74) (xy 171.45 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411c9747-0bfe-4d15-8941-7c942d5c62ae")
+	)
+	(wire
+		(pts
+			(xy 120.65 104.14) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556747b6-68d8-4fe6-8d37-4308cb0ad6a6")
+	)
+	(wire
+		(pts
+			(xy 120.65 68.58) (xy 171.45 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57bfcde7-d901-455d-82a4-69b88ed4438b")
+	)
+	(wire
+		(pts
+			(xy 120.65 60.96) (xy 171.45 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3308a8-d1b6-45e0-b2c6-b95c10363022")
+	)
+	(wire
+		(pts
+			(xy 120.65 123.19) (xy 171.45 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b4c0fc-27b6-437e-9555-8ece51b4e197")
+	)
+	(wire
+		(pts
+			(xy 120.65 58.42) (xy 171.45 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4c1dfb-a25a-4d53-9d69-f3ed77fc8908")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 171.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9434a3ef-e4c7-457b-b95c-630f801e770f")
+	)
+	(wire
+		(pts
+			(xy 120.65 93.98) (xy 171.45 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ac77ef-68ee-4b90-bbbd-0b6b35836556")
+	)
+	(wire
+		(pts
+			(xy 120.65 88.9) (xy 171.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9ae9df-6315-480f-951e-e2763fc90501")
+	)
+	(wire
+		(pts
+			(xy 120.65 114.3) (xy 171.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf51c77-c897-463b-9084-bd8abb8654e8")
+	)
+	(wire
+		(pts
+			(xy 120.65 50.8) (xy 171.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba524264-1311-4e7e-a42c-a6c654cc84c1")
+	)
+	(wire
+		(pts
+			(xy 120.65 76.2) (xy 171.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbea9132-40be-488c-9584-821cea5a6486")
+	)
+	(wire
+		(pts
+			(xy 120.65 116.84) (xy 171.45 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd9c70c-da39-4993-bb4f-3f6c1ef738eb")
+	)
+	(wire
+		(pts
+			(xy 120.65 48.26) (xy 171.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e43a27-9453-4d79-af16-3fdadcf2816d")
+	)
+	(wire
+		(pts
+			(xy 120.65 99.06) (xy 171.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7afc14-4de4-4f38-adc6-6cc43c0ae7bd")
+	)
+	(wire
+		(pts
+			(xy 120.65 55.88) (xy 171.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd1c295-a7af-4900-860c-4ad1ad552b67")
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:CE_Free")
+		(at -52.07 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06c13185-c527-429c-934c-a2fa41ca072d")
+		(property "Reference" "PCB5"
+			(at -49.53 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CE Symbol"
+			(at -49.53 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:CE-Logo_8.5x6mm_SilkScreen"
+			(at -52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036"
+					(reference "PCB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:Pb_Free")
+		(at -52.07 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "440a0e13-940f-4a77-b88f-379b13c2ec56")
+		(property "Reference" "PCB7"
+			(at -49.53 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pb_Free Symbol"
+			(at -49.53 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:Pb_Free_8.0x8.0mm_SilkScreen"
+			(at -52.07 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -52.07 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -52.07 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036"
+					(reference "PCB7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:UKCA")
+		(at -52.07 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b36f3ebb-15e6-4ca0-ad0c-7ec541900f32")
+		(property "Reference" "PCB4"
+			(at -49.53 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UKCA symbol"
+			(at -49.53 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:UKCA-Logo_8x8mm_SilkScreen"
+			(at -52.07 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -52.07 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -52.07 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036"
+					(reference "PCB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:WEEE")
+		(at -52.07 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7e2796c-d7a0-4889-b03a-34ea94327628")
+		(property "Reference" "PCB6"
+			(at -49.53 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WEEE SYMBOL"
+			(at -49.53 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:WEEE-Logo_5.6x8mm_SilkScreen"
+			(at -52.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -52.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -52.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036"
+					(reference "PCB6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 44.45)
+		(size 92.71 83.82)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b175686-7035-4ca2-abe3-d2e3eb506fce")
+		(property "Sheetname" "Integrated_Circuits"
+			(at 27.94 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ICs_sheet.kicad_sch"
+			(at 27.94 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "nRST" input
+			(at 120.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "507fc3aa-8422-43f5-a7be-61e5b5fc496e")
+		)
+		(pin "GPIO3" input
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b168b21-054a-4597-8d04-b9e31bb27f90")
+		)
+		(pin "TRIG" input
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e694e2e5-2849-4cfc-a6a1-a23ebdbb76e7")
+		)
+		(pin "TDO" input
+			(at 120.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7b70e87f-93c5-4f7f-8c7a-e18e9684eca0")
+		)
+		(pin "TMS" input
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36d832ce-2536-456d-9cf5-132c38298d3a")
+		)
+		(pin "TDI" input
+			(at 120.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5b100c3c-fcc0-4484-af53-64a71fb1821f")
+		)
+		(pin "TCK" input
+			(at 120.65 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "65ebbfd9-00e3-4f26-a3e2-688f6437b9ff")
+		)
+		(pin "TXD" input
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9af930c9-cfd7-4c6a-a962-e9c512bb1818")
+		)
+		(pin "RXD" input
+			(at 120.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "201dd264-9817-46f0-a8b3-915981a71017")
+		)
+		(pin "GPIO16" input
+			(at 120.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0af3549c-0a94-4970-8f40-db0d6448caa1")
+		)
+		(pin "LED3" input
+			(at 120.65 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6a8e25b9-407f-4997-b1f7-f4de12a62bb6")
+		)
+		(pin "LED1" input
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1c9beba0-be9d-43e0-8b8a-702aea2a0b6e")
+		)
+		(pin "LED2" input
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "918f09e1-e601-4b2e-8d03-7ae83ba35e17")
+		)
+		(pin "OE" input
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8bd59427-8b59-4bc3-aaab-7ae950f128bd")
+		)
+		(pin "SHUNTL" input
+			(at 120.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "51744c40-7e7f-43b2-87db-4d5cff7ad9e0")
+		)
+		(pin "SHUNTH" input
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ff0f2adf-a9df-4f04-94af-4e562ff01f10")
+		)
+		(pin "BUF CS" input
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "790b75ae-8cba-4601-b44d-093451cf55f1")
+		)
+		(pin "BUF SDI" input
+			(at 120.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d316717-fc22-423b-bd33-37b24b6bf8b9")
+		)
+		(pin "BUF SCK" input
+			(at 120.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b70e627d-a7cf-42ec-9c98-75a2d9df7a02")
+		)
+		(pin "BUF SDO" input
+			(at 120.65 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f0dbb78a-2417-403a-ae90-0cf8a435673f")
+		)
+		(pin "CLK" input
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e175a38a-479a-4c7b-b851-90f4319eded9")
+		)
+		(instances
+			(project "KiCAD_Test3"
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 44.45)
+		(size 92.71 83.82)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bdf9dfe7-ebbc-4e1b-a7b9-19e8a6ddc3c1")
+		(property "Sheetname" "Connector"
+			(at 171.45 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connector.kicad_sch"
+			(at 171.45 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SHUNTL" input
+			(at 171.45 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "465aeaff-2b48-4732-9434-b19b00720046")
+		)
+		(pin "SHUNTH" input
+			(at 171.45 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9dc869ac-739d-4022-9dd7-aa6bb2f67b2e")
+		)
+		(pin "LED1" input
+			(at 171.45 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c79594f1-6ab6-4178-a91b-9a4b53373cc8")
+		)
+		(pin "LED2" input
+			(at 171.45 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e0bbe238-c612-42eb-8485-225af92f4da2")
+		)
+		(pin "LED3" input
+			(at 171.45 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "94acc4f3-df89-4cdf-af25-e10154bc4bd7")
+		)
+		(pin "nRST" input
+			(at 171.45 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bf36db77-1202-46bb-845a-62c2b29e4bb1")
+		)
+		(pin "TXD" input
+			(at 171.45 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f9128a77-de0c-4852-b052-2ac4ca9cd894")
+		)
+		(pin "RXD" input
+			(at 171.45 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ddaaf5a4-0266-426a-9713-1b1043d127b1")
+		)
+		(pin "GPIO3" input
+			(at 171.45 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3ec4951e-c41f-45a5-bf59-0adc350eaf9f")
+		)
+		(pin "TRIG" input
+			(at 171.45 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "654eda95-9ea8-48b7-958d-1cad9a21460f")
+		)
+		(pin "BUF SCK" input
+			(at 171.45 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7af38b20-264d-40bf-9ab1-144faa29e838")
+		)
+		(pin "BUF SDO" input
+			(at 171.45 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8683e865-99be-45bf-b581-f046da5cdc7d")
+		)
+		(pin "BUF SDI" input
+			(at 171.45 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a5b06bf6-e148-4208-97c9-4136abcd48d2")
+		)
+		(pin "OE" input
+			(at 171.45 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4e0e69ec-51e4-43e4-9e02-41d6fd713c5b")
+		)
+		(pin "BUF CS" input
+			(at 171.45 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d35001fd-b828-460e-8f00-282d6a0037a5")
+		)
+		(pin "TDI" input
+			(at 171.45 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d2b0c27-6ee5-4b14-9006-5a3adaa81b4e")
+		)
+		(pin "TDO" input
+			(at 171.45 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3a5334f-aa1d-44de-83c2-9a305c60dbb8")
+		)
+		(pin "TMS" input
+			(at 171.45 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "198ae5bc-4586-4984-8414-bae8a02e609a")
+		)
+		(pin "TCK" input
+			(at 171.45 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "285131af-9771-4e1f-99e9-9259e901c2b8")
+		)
+		(pin "GPIO16" input
+			(at 171.45 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c5a7027a-abc3-4cd3-89fc-1f8ad5f21b3a")
+		)
+		(pin "CLK" input
+			(at 171.45 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa87ad3b-623b-4822-8c2f-6123b5a71ef2")
+		)
+		(instances
+			(project "KiCAD_Test3"
+				(path "/3a5d4ac2-6e78-4735-b22c-b99217f3b036"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
