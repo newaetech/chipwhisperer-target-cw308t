@@ -51,6 +51,7 @@ table summarizes examples of suitable devices:
 | L5            | TQFP-64 | STM32L562RET6  | Yes          | Yes    | B      | 512KB | 256KB | NAE-CW308T-STM32L5HWC                                 |
 
 
+
 ### **VCC-Int Supply**
 
 Several devices (F2, F4) have internal core voltage regulators. By
@@ -410,3 +411,11 @@ the part number, for example these boards will be marked STM32F-02. The
 ![cw308\_stm32f.jpg](Images/cw308_stm32f.jpg "cw308_stm32f.jpg")
 
 ![CW308T\_STM32F\_02.png](Images/CW308T_STM32F_02.png "CW308T_STM32F_02.png")
+
+## Errata
+
+### STM32 Parts Differences
+
+Due to part availability, some boards may come with slightly different microcontrollers
+(typically a larger internal flash and/or SRAM) which may have different hardware optimizations. 
+This won't affect most attacks, but may affect template attacks across devices. For example, a template generated for an STM32F303RCT7 may not work on an STM32F303RDT6 and vice versa.
