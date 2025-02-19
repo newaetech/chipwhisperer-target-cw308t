@@ -7,7 +7,7 @@ This is a BETA target and not yet available. This page will continue to be updat
 
 ![](Images/CW308T_ADuCM3029.PNG)
 
-## Specficiations
+## Specifications
 
 | Feature | Notes/Range |
 |---------|----------|

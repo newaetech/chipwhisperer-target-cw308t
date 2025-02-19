@@ -83,7 +83,7 @@ Details of interacting with this block are publicly available.
 ### **Disassembling Source**
 
 If you are having trouble debugging, it can be useful to read out a
-memory segment and dissassemble it. This is possible with the included
+memory segment and disassemble it. This is possible with the included
 S32DS tools. The following shows the required command line:
 
 ` E:\nxp\S32DS_Power_v2017.R1\Cross_Tools\powerpc-eabivle-4_9\bin>powerpc-eabivle-objdump.exe -mpowerpc -Me200z4 -D -b srec -EB MPC5748G.s19 > MPC5748G.txt`

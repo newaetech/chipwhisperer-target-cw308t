@@ -21,7 +21,7 @@ This target used to come with many of NewAE's starter kits, but has been replace
 
 ## I/O Connections
 
-**NOTE:** The serial pins for this target are swapped comapred to the usual setup. An example setup script can be found here: https://github.com/newaetech/chipwhisperer-jupyter/blob/1ccd1b1fbd8a3295e1033efb37e53e1022d47cc5/Helper_Scripts/Setup_Notduino.ipynb
+**NOTE:** The serial pins for this target are swapped compared to the usual setup. An example setup script can be found here: https://github.com/newaetech/chipwhisperer-jupyter/blob/1ccd1b1fbd8a3295e1033efb37e53e1022d47cc5/Helper_Scripts/Setup_Notduino.ipynb
 
 The pinout of this module matches the "NOTDuino" kit along with the
 "CW301 Multi-Target Board" routing. The following is the connection

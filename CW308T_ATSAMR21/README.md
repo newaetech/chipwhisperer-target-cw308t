@@ -4,7 +4,7 @@ This is a BETA target and not yet available. This page will continue to be updat
 
 ![atsam21\_target.jpg](Images/Atsam21_target.jpg "atsam21_target.jpg")
 
-## Specficiations
+## Specifications
 
 | Feature | Notes/Range |
 |---------|----------|

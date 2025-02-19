@@ -1,7 +1,7 @@
 # CW308T-STM32F
 
 The CW308-STM32F board is the perfect target for testing fault injection against TQFP-64 STM32F/STM32L
-microcontrollers. Thanks to pin compatablity (mostly) between various devices, this single board
+microcontrollers. Thanks to pin compatibility (mostly) between various devices, this single board
 supports multiple STM32F/STM32L microcontrollers.
 
 These boards are also available complete with different STM32 devices
@@ -58,8 +58,9 @@ Several devices (F2, F4) have internal core voltage regulators. By
 default the CW308 board attempts to provide power for these pins, but
 the voltage may not be high enough to cause the internal regulator to
 disable itself. In this case you can use the VADJ regulator to ensure
-the internal regulator is disabled. See [Targets with Internal
-Regulators](Targets_with_Internal_Regulators "wikilink") for details.
+the internal regulator is disabled. See 
+[Targets with Internal Regulators](../../Tips%20and%20Tricks.md#targets-with-internal-regulators)
+for details.
 
 ### **Pin-outs across TQFP Devices**
 

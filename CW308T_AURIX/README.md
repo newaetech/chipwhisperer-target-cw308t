@@ -5,7 +5,7 @@ This board supports the Infineon TC233LP microcontroller.
 ![](Images/NAE-CW308-AURIX-TC233.jpg)
 
 
-## Specficiations
+## Specifications
 
 
 | Feature | Notes/Range |

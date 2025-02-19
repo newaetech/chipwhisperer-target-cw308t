@@ -53,7 +53,7 @@ Studio - Device Debugging" and hit "New".
 
 Under Main, click "Use default target configuration". Next, go to
 program, hit "File System", and navigate to your binary. If you built
-using Chipwhisperer's build system, you want the .elf file from this
+using ChipWhisperer's build system, you want the .elf file from this
 process. Hit "Apply", then "Debug". If the target does not connect, go
 to Run-\>Connect Target. Finally, go to Run-\>Resume to start the
 program. Closing CCS should leave the program running on the CC2538.

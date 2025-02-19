@@ -95,7 +95,7 @@ makefile is checked into the GIT repository.
 
 ### **Adjusting Hardware AES**
 
-Inside the file *hwaes.c* you will find the AES hardware initilization.
+Inside the file *hwaes.c* you will find the AES hardware initialization.
 This is given in the following code sample:
 
 ``` c

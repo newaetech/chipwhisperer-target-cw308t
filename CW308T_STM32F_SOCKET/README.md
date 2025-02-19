@@ -1,7 +1,7 @@
 # CW308T-STM32F-SOCKET
 
 The CW308-STM32F-SOCKET board is the perfect target for testing fault injection against TQFP-64 STM32F/STM32L
-microcontrollers. Thanks to pin compatablity (mostly) between various devices, this single board
+microcontrollers. Thanks to pin compatibility (mostly) between various devices, this single board
 supports multiple STM32F/STM32L microcontrollers.
 
 These boards do not ship with any microcontroller, but use a 64-pin TQFP socket.
@@ -69,7 +69,7 @@ capacitors C5/C6/C7/C8 are DNM, as they will weaken leakage on devices with a 3.
 
 * See note above about setting switch SW1 to route correct power to the target device.
 
-* General usage information is available on the [STM32Fx target board documentation page](../CW308T-STM32F/).
+* General usage information is available on the [STM32Fx target board documentation page](CW308T-STM32F.md).
 
 ### Schematic
 

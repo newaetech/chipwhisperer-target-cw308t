@@ -1,6 +1,6 @@
 # CW308T-PSoC62
 
-The PSoC62 board features the CY8C6247BZI-D44 from Cypress Semiconductors. This device features multiple secure boot features, and a seperate Cortex-M0 “security code” in addition to the Cortex-M4 “main processor.
+The PSoC62 board features the CY8C6247BZI-D44 from Cypress Semiconductors. This device features multiple secure boot features, and a separate Cortex-M0 “security code” in addition to the Cortex-M4 “main processor.
 
 The PCB layout should be compatible with the PSoC64 - the PSoC64 features effectively the PSoC62 with pre-programmed secure core memory.
 

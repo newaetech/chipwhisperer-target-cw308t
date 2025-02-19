@@ -4,7 +4,7 @@ This board supports the SiFive FE310, which is a RISC-V based microcontroller.
 
 ![](Images/fe310_picture.png)
 
-## Specficiations
+## Specifications
 
 | Feature | Notes/Range |
 |---------|----------|
@@ -53,7 +53,7 @@ build system with `PLATFORM=CW308_FE310`.
 ## Programming
 
 The CW308T_FE310 has a W25Q32JV 32MB SPI chip used as program memory which can be programmed over JTAG. An example
-of a compatable JTAG programmer is a Segger J-Link. Ensure that the device is powered and has a valid
+of a compatible JTAG programmer is a Segger J-Link. Ensure that the device is powered and has a valid
 clock before programming.
 
 As of ChipWhisperer 5.6.2, you can use [ChipWhisperer's MPSSE mode](https://chipwhisperer.readthedocs.io/en/latest/debugging.html) to program the FE310. The easiest way is to use the `run_openocd.sh` script included

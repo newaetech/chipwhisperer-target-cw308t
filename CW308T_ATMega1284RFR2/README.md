@@ -42,7 +42,7 @@ not disconnect the MegaRF SPI lines & try holding the MegaRF in reset to
 tri-state the SPI lines, you may end up accidentally loading an ISP
 programming command.
 
-GPIO3 is normally used to switche the 4066 electronic switch from
+GPIO3 is normally used to switch the 4066 electronic switch from
 connecting the external SPI connections between the SPI-Flash memory
 chip and the MegaRF device. You must set GPIO3 high to allow programming
 of the MegaRF chip, otherwise it is pulled low which disconnects the

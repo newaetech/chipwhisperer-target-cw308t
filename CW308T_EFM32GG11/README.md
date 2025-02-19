@@ -6,7 +6,7 @@ EFM32GG11B1.
 
 This is a BETA target and not yet available. This page will continue to be updated until release. Gerbers are available in the GIT repo if you live dangerously.
 
-![](Images/CW308T-EFM32GG11.PNG)
+![](Images/CW308T_EFM32GG11.PNG)
 
 ---
 
