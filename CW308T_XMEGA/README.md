@@ -21,7 +21,7 @@ The CW308T-XMEGA fits an Atmel XMEGA device.
 Available from [Mouser](https://www.mouser.com/ProductDetail/NewAE/NAE-CW308T-XMEGA?qs=P1JMDcb91o4l0XcYi2IADA%3D%3D)
 and the [NewAE Store](https://store.newae.com/xmega-target-for-cw308-8-bit-risc/)
 
->## I/O Connections
+## I/O Connections
 
 | **CW308 Pin** | **ATXMega Pin** | **Notes**                                                                             |
 | --------- | ----------- | --------------------------------------------------------------------------------- |
@@ -39,7 +39,7 @@ and the [NewAE Store](https://store.newae.com/xmega-target-for-cw308-8-bit-risc/
 
 ---
 
->## Hardware AES
+## Hardware AES
 
 The XMEGA device that ships with most standard boards is the
 ATXmega128D4-AU, the same device on the ChipWhisperer-Lite. This board
@@ -53,7 +53,7 @@ them yourselves) and mount the appropriate XMEGA device.
 
 ---
 
->## Programming Header
+## Programming Header
 
 The 6-pin programming heading can be used with the Atmel PDI interface.
 The pinout of the 6-pin programming header on the main-board allows it
@@ -63,7 +63,7 @@ to work with standard Atmel ISP tools:
 
 ---
 
->## Schematic
+## Schematic
 
 ![CW308T\_XMEGA\_Schematic\_Page\_1.png](Images/CW308T_XMEGA_Schematic_Page_1.png
 "CW308T_XMEGA_Schematic_Page_1.png")

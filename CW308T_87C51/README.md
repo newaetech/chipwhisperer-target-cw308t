@@ -71,7 +71,7 @@ UV window but some don't, those without the UV window are OTP devices.
 You may wish to use a 89C51 device instead in some cases. See note below
 about 89C51 devices.
 
->#### _Using 89C51 Devices_
+#### _Using 89C51 Devices_
 
 The 89C51 devices are also possible to be used with this board, which
 can be more easily reprogrammed. The 89C51 devices do not normally have
@@ -131,7 +131,7 @@ pins are instead connected to VCC (logic 1).
 
 ---
 
->## AVR Firmware
+## AVR Firmware
 
 The AVR on the target board has its own firmware to control the 87C51
 code verification process. This firmware is one Atmel Studio project in
@@ -152,7 +152,7 @@ Once these fuses are set, slow clock mode can be disabled again.
 
 ---
 
->## 87C51 Firmware
+## 87C51 Firmware
 
 ### **Developing Firmware for the 87C51**
 
@@ -254,7 +254,7 @@ jumper is mounted:
 
 ---
 
->## Code Verification
+## Code Verification
 
 ### **Verification Process**
 

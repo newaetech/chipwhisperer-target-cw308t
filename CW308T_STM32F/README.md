@@ -383,7 +383,7 @@ registers' addresses are correct before you trust them\!
 
 ---
 
->## Schematic
+## Schematic
 
 The following variants are possible, see the table above for
 SRAM/FLASH/HW-Crypto status:
