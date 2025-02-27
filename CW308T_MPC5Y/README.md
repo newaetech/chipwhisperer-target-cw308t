@@ -5,8 +5,9 @@ This target uses one PCB to support two different automotive chips: the MPC5676R
 Two CAN ports are connected out, along with various I/O. The ENGCLK output is available to synchronize to the internal clock during boot.
 
 
-!!! attention
+```{warning}
     This target requires an external programmer to reload code.
+```
 
 ## Board Photos
 

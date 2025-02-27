@@ -8,8 +8,9 @@ As this board contains a QFN socket, it is ideally suited for experiments such a
 
 ![](Images/NAE-CW308-EFR32MG21-SOCKET_web.jpg)
 
-!!! attention
+```{warning}
     This target requires an external programmer to reload code.
+```
 
 ---
 

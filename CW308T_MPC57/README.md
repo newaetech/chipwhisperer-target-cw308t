@@ -10,12 +10,14 @@ has a number of interesting features including:
 
 ![](Images/Mpc5748g_web.jpg)
 
-!!! attention
+```{warning}
     This target requires an external programmer for the MPC5748G to reload code.
+```
 
-!!! attention
+```{warning}
     This target is not integrated into the ChipWhisperer "HAL" build system due to
     the multi-core support.
+```
 
 ## Quick Links
 
