@@ -14,7 +14,11 @@ Most (all?) of these boards support the ChipWhisperer example applications. That
 
 ## Documentation ##
 
-The documentation in each directory (the markdown README.md file) is mirrored to the ChipWhisperer.com main documentation page.
+The documentation in each directory (the markdown README.md file) is mirrored to the ChipWhisperer [main documentation page](https://chipwhisperer.readthedocs.io).
+Some of the links in the markdown files here appear broken; they are written to
+work for building the documentation site at
+https://github.com/newaetech/chipwhisperer/tree/develop/docs, where this
+repository is pulled in as a submodule.
 
 ## Using Boards ##
 

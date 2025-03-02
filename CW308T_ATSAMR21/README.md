@@ -58,7 +58,8 @@ The SAMR21E uses the 2-pin programming (SWDIO/SWCLK) interface. This is
 routed to the 20-pin ARM JTAG header, which can be used with standard
 Atmel programming tools:
 
-![sam\_jtag\_small.jpg](Images/sam_jtag_small.jpg "sam_jtag_small.jpg")
+![sam\_jtag\_small.jpg](../CW308T_ATSAM4L/Images/sam_jtag_small.jpg "sam_jtag_small.jpg")
+
 
 ---
 

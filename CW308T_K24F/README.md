@@ -37,6 +37,8 @@ The K24F family of chips integrates many security features, including:
 
 ## Programming
 
+External programmer required.
+
 ---
 
 ## Schematic and Layout

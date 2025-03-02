@@ -5,7 +5,7 @@ mounted chip is the ADUCM3029BCPZ.
 
 This is a BETA target and not yet available. This page will continue to be updated until release. Gerbers are available in the GIT repo if you live dangerously.
 
-![](Images/CW308T_ADuCM3029.PNG)
+![](CW308T_ADuCM3029.PNG)
 
 ## Specifications
 
@@ -70,4 +70,3 @@ Single wire debug (SWD) is also supported for programming and debugging.
 ![](Images/ADuCM3029-sch1.png)
 ![](Images/ADuCM3029-sch2.png)
 
----

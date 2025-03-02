@@ -33,9 +33,10 @@ The design files are available as part of the open-source ChipWhisperer example 
 | Status | Production |
 | Shunt | 10R |
 
+---
+
 ## Power Supply
 
 The PSoC62 target runs from the 1.2v supply on the CW308T for core voltage, and 3.3V for I/O voltage.
 
----
 

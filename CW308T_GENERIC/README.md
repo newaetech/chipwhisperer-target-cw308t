@@ -1,14 +1,12 @@
 # CW308T-GENERIC
 
----
-
 This is a basic prototype board which can be used for mounting other
-chips on the [CW308 UFO Target](../CW308%20UFO.md). It can
+chips on the [CW308 UFO Target](../../Targets/CW308%20UFO.md). It can
 also be used to mount small boards (see the examples for photos).
 
 ---
 
-### Usage
+## Usage
 
 If using the board, you MUST wire the I/O voltage to the VREF pin (lower
 left, pin A20). If you fail to do this the diode clamps may stop I/O
@@ -19,11 +17,11 @@ routed to the VREF pin.
 
 ---
 
-### Examples
+## Examples
 
 The following shows several examples of this board in use.
 
-#### **Hue Bridge 2.0**
+### **Hue Bridge 2.0**
 
 This shows an extreme example of mounting a board onto the victim board.
 The actual analysis was being done on the SAMR21R on the main board, but
@@ -34,7 +32,7 @@ area.
 
 ![huebridge2.JPG](Images/Huebridge2.JPG)
 
-#### **Hue ATMega2564RF2R Based Bulb**
+### **Hue ATMega2564RF2R Based Bulb**
 
 The SPI traffic was wired out as well in this example, and a
 ChipWhisperer-Pro was used to trigger on SPI traffic.
@@ -43,7 +41,7 @@ ChipWhisperer-Pro was used to trigger on SPI traffic.
 
 ![huebulb\_m2564rfr2.jpg](Images/Huebulb_m2564rfr2.jpg "huebulb_m2564rfr2.jpg")
 
-#### **Riscure CTF Board**
+### **Riscure CTF Board**
 
 This example allowed both power analysis and clock glitching to be
 performed against the board. A small shunt resistor is soldered in-line

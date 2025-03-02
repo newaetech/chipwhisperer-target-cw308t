@@ -25,9 +25,10 @@ The Kinetis K82 has both 256KB of FLASH and SRAM, making it an ideal target for 
 | Status | Production |
 | Shunt | 10R |
 
+---
+
 ## Power Supply
 
 The K82F target runs from the 3.3v supply on the CW308T.
 
----
 

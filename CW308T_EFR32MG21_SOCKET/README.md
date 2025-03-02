@@ -51,4 +51,3 @@ The EFR32MG21B adds the "secure vault" feature.
 
 A JTAG programmer is typically required for these devices.
 
----

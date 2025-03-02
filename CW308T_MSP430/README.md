@@ -89,10 +89,6 @@ has tools like `make` and `msp430-elf-gcc` in the path:
 
 ---
 
-## Example Projects
-
----
-
 ## Using JTAG Programmer
 
 The ChipWhisperer does not contain a JTAG programmer, but you can use

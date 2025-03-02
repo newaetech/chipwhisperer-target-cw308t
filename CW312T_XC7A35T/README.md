@@ -4,7 +4,7 @@ Xilinx Artix7 A35 Target for ChipWhisperer, with CW312 edge connector.
 
 ![](Images/chipwhisperer-10-a35prod_jpg_md-xl.jpg)
 
-### JTAG Options
+## JTAG Options
 The target board has a Xilinx JTAG header (labeled "FPGA Jaytag" on the PCB)
 which connects to the FPGA's JTAG port, for programming the FPGA via Xilinx
 tools, or for using FPGA ILAs.
@@ -19,7 +19,7 @@ routing options:
    soft-core JTAG port.
 Refer to the [schematic](#schematic) to see exactly how this is done.
 
-### Shunt Selection
+## Shunt Selection
 Because it's hard to have an optimal one-size-fits-all shunt for FPGA
 targets, there are 3 shunts to choose from:
 
@@ -31,7 +31,7 @@ targets, there are 3 shunts to choose from:
 
 The active shunt is selected by a solder blob on SJ1, SJ2 or SJ3.
 
-### Example Target Cores
+## Example Target Cores
 The A35 target can run our example 
 [AES](https://github.com/newaetech/chipwhisperer-jupyter/blob/master/demos/PA_HW_CW305_1-Attacking_AES_on_an_FPGA.ipynb), 
 [pipelined AES](https://github.com/newaetech/chipwhisperer-jupyter/blob/master/demos/CW305_AES_pipelined.ipynb), and 
@@ -44,8 +44,8 @@ above). To learn how to build these bitfiles yourself, head over to the
 FPGA target area of the chipwhisperer repository
 [here](https://github.com/newaetech/chipwhisperer/tree/develop/firmware/fpgas).
 
-### Example Soft Cores
-#### 1. Ibex
+## Example Soft Cores
+### 1. Ibex
 We also provide a bitfile for a pre-built 
 [RISC-V Ibex core](https://github.com/lowRISC/ibex-demo-system).
 
@@ -90,13 +90,13 @@ frequency and scale the baudrate accordingly, but only to a certain point
 because the PLL will stop functioning correctly if the input clock frequency
 is too far from 100 MHz).
 
-#### 2. Arm DesignStart
+### 2. Arm DesignStart
 Look to our 
 [Arm DesignStart repository](https://github.com/newaetech/CW305-Arm-DesignStart) 
 for instructions on building and using a soft-core Arm Cortex target.
 
 
-### Programming
+## Programming
 The FPGA can be programmed with a Xilinx platform cable (or equivalent)
 connected to the "Jaytag" port, as explained [above](#jtag-options).
 

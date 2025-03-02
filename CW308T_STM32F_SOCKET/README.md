@@ -60,7 +60,7 @@ GND/VCC. The right-most part is the pinout of the STM32F2/F4. It has an
 internal regulator, where the VCAP pins are the output of this regulator
 (and input to the internal core logic).
 
-![power\_diffstm32.png](Images/power_diffstm32.png "power_diffstm32.png")
+![power\_diffstm32.png](../CW308T_STM32F/Images/power_diffstm32.png "power_diffstm32.png")
 
 Decoupling
 capacitors C5/C6/C7/C8 are DNM, as they will weaken leakage on devices with a 3.3V core.
@@ -69,7 +69,7 @@ capacitors C5/C6/C7/C8 are DNM, as they will weaken leakage on devices with a 3.
 
 * See note above about setting switch SW1 to route correct power to the target device.
 
-* General usage information is available on the [STM32Fx target board documentation page](CW308T-STM32F.md).
+* General usage information is available on the [STM32Fx target board documentation page](../CW308T-STM32F/README.md).
 
 ### Schematic
 
