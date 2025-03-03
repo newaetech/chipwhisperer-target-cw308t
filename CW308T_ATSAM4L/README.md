@@ -81,7 +81,7 @@ programmer).
 The SimpleSerial-AES program can be built for this target. This can use
 either hardware crypto or a software AES. This project is currently
 built via the Atmel Studio IDE, and the project file is located at
-[hardware/victims/firmware/simpleserial-aes/ide\_projects/asf/sam4l-simpleserial-aes](https://github.com/newaetech/chipwhisperer/tree/develop/hardware/victims/firmware/simpleserial-aes/ide_projects/asf/sam4l-simpleserial-aes)
+[firmware/mcu/simpleserial-aes/ide\_projects/asf/sam4l-simpleserial-aes](https://github.com/newaetech/chipwhisperer/tree/develop/firmware/mcu/simpleserial-aes/ide_projects/asf/sam4l-simpleserial-aes)
 with the ChipWhisperer release.
 
 If an Atmel ICE is attached as above, you should be able to build and

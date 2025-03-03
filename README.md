@@ -10,7 +10,7 @@ These are *targets* for the CW308 UFO Board. This repo contains gerbers, schemat
 
 Many of these target boards (along with UFO baseboard) can be purchased assembled via Mouser Electronics. Note all targets are available however, so if you want some of the latest targets you may need to build one.
 
-Most (all?) of these boards support the ChipWhisperer example applications. That means a basic HAL is provided in [chipwhisperer/hardware/victims/firmware/hal](https://github.com/newaetech/chipwhisperer/tree/develop/hardware/victims/firmware/hal) . Some of the more unique boards do not build as part of that system due to complexity of porting (i.e., ESP32).
+Most (all?) of these boards support the ChipWhisperer example applications. That means a basic HAL is provided in [chipwhisperer/firmware/mcu/hal](https://github.com/newaetech/chipwhisperer/tree/develop/firmware/mcu/hal) . Some of the more unique boards do not build as part of that system due to complexity of porting (i.e., ESP32).
 
 ## Documentation ##
 

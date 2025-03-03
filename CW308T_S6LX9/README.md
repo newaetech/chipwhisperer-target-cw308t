@@ -46,11 +46,11 @@ CW-Lite, or external power depending on your setup). '''
 ## Example Project
 
 The GIT repo includes an example Xilinx ISE project, located at
-[hardware/victims/cw308\_ufo\_target/spartan6lx9/ss\_aes\_ise](https://github.com/newaetech/chipwhisperer/tree/develop/hardware/victims/cw308_ufo_target/spartan6lx9/ss_aes_ise).
+[firmware/fpgas/aes/ise/](https://github.com/newaetech/chipwhisperer/tree/develop/firmware/fpgas/aes/ise).
 To use this project:
 
 1.  Build the bitstream (or see the pre-built one in the repo at
-    [cw308t\_s6lx9\_example.bit](https://github.com/newaetech/chipwhisperer/raw/develop/hardware/victims/cw308_ufo_target/spartan6lx9/ss_aes_ise/cw308t_s6lx9_example.bit))
+    [cw308t\_s6lx9\_example.bit](https://github.com/newaetech/chipwhisperer/raw/develop/firmware/fpgas/aes/ise/cw308t_s6lx9_example.bit))
 1.  Use settings as in the 'Default XMEGA' or 'STM32Fx' targets (i.e.,
     clock jumpers, etc).
 1.  Ensure you have turned on the 1.2V & 3.3V power supplies to the UFO

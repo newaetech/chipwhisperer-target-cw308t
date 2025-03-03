@@ -51,11 +51,11 @@ We also provide a bitfile for a pre-built
 
 To compile firmware for this target using our build infrastructure, set
 `TARGET` to `CW312_IBEX`. This will pull in the 
-[Ibex HAL](https://github.com/newaetech/chipwhisperer/tree/develop/hardware/victims/firmware/hal/ibex).
+[Ibex HAL](https://github.com/newaetech/chipwhisperer/tree/develop/firmware/mcu/hal/ibex).
 Ensure you have a version of `riscv32-unknown-elf-gcc` [recommended by the
 lowRISC project](https://github.com/lowRISC/lowrisc-toolchains/releases).
 Then, compile target firmware 
-[here](https://github.com/newaetech/chipwhisperer/tree/develop/hardware/victims/firmware) 
+[here](https://github.com/newaetech/chipwhisperer/tree/develop/firmware/mcu) 
 as you would for any of our other targets.
 
 Alternatively, you can also build target firmware from the 

@@ -82,7 +82,7 @@ Toolchain](https://software.intel.com/en-us/articles/issm-toolchain-only-downloa
 and uncompress it. The toolchain comes compressed/archived in the tar.gz
 format, so you may need to download a program that can work with those
 formats (such as 7-zip on Windows). Firmware is contained in
-`hardware/victims/firmware/intel_quark/simpleserial_example/` and can be
+`firmware/mcu/intel_quark/simpleserial_example/` and can be
 built with make. Note that you'll need to specify where the toolchain is
 located:
 
@@ -104,7 +104,7 @@ Linux, Git Bash, Cygwin, etc.
   - This is usually caused by the default make directory command (`md`)
 not working. First, ensure that you have `mkdir` and cp on your system
 by opening `cmd` and running them. Then open
-`hardware/victims/firmware/intel_quark/qmsi/base.mk` and change:
+`firmware/mcu/intel_quark/qmsi/base.mk` and change:
 
 ``` makefile
 # Any other version of Windows
@@ -198,8 +198,8 @@ You can then run the following within a GDB console:
 
 `target remote :3333`
 `monitor clk32M 125`
-`monitor load_image C:\\chipwhisperer\\hardware\\victims\\firmware\\intel_quark\\quark_d2000_rom.bin 0x0`
-`monitor load_image C:\\chipwhisperer\\hardware\\victims\\firmware\\intel_quark\\simpleserial_example\\release\\quark_d2000\\x86\\bin\\simpleserial_aes.bin 0x00180000`
+`monitor load_image C:\\chipwhisperer\\\\firmware\\mcu\\intel_quark\\quark_d2000_rom.bin 0x0`
+`monitor load_image C:\\chipwhisperer\\\\firmware\\mcu\\intel_quark\\simpleserial_example\\release\\quark_d2000\\x86\\bin\\simpleserial_aes.bin 0x00180000`
 
 The first load\_image is used for the ROM image. This should only be
 done once - do not reload every time, only reload the application. The
@@ -246,8 +246,8 @@ commands:
 `set QUARK_D2000_OTPC_DATA_WRITE_ENABLED 1`
 `mass_erase`
 `clk32M 100`
-`load_image C:\\chipwhisperer\\hardware\\victims\\firmware\\intel_quark\\quark_d2000_rom.bin 0x0`
-`load_image C:\\chipwhisperer\\hardware\\victims\\firmware\\intel_quark\\simpleserial_example\\release\\quark_d2000\\x86\\bin\\simpleserial_aes.bin 0x00180000`
+`load_image C:\\chipwhisperer\\firmware\\mcu\\intel_quark\\quark_d2000_rom.bin 0x0`
+`load_image C:\\chipwhisperer\\firmware\\mcu\\intel_quark\\simpleserial_example\\release\\quark_d2000\\x86\\bin\\simpleserial_aes.bin 0x00180000`
 
 The following should be the example output of these commands:
 
@@ -272,10 +272,10 @@ The following should be the example output of these commands:
 `JTAG tap: quark_d2000.lmt enabled`
 `target state: halted`
 `target halted due to debug-request at 0x0000fff0 in real mode`
-`> load_image C:\\chipwhisperer\\hardware\\victims\\firmware\\intel_quark\\quark_d2000_rom.bin 0x0`
+`> load_image C:\\chipwhisperer\\firmware\\mcu\\intel_quark\\quark_d2000_rom.bin 0x0`
 `....8192 bytes written at address 0x00000000`
 `downloaded 8192 bytes in 66.997505s (0.119 KiB/s)`
-`> load_image C:\\chipwhisperer\\hardware\\victims\\firmware\\intel_quark\\simpleserial_example\\release\\quark_d2000\\x8`
+`> load_image C:\\chipwhisperer\\firmware\\mcu\\intel_quark\\simpleserial_example\\release\\quark_d2000\\x8`
 `.2872 bytes written at address 0x00180000`
 `downloaded 2872 bytes in 42.280869s (0.066 KiB/s)`
 

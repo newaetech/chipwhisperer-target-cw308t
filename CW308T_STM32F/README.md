@@ -171,7 +171,7 @@ PLATFORM = "CW308_STM32F4" #For STM32F4 target, was originally "CWLITEARM"
 
 The regular firmware build process works with the STM32 devices. For
 example, to build \`simpleserial-aes\`, navigate to the folder
-\`chipwhisperer\\hardware\\victims\\firmware\\simpleserial-aes\` and run
+\`chipwhisperer\\firmware\\mcu\\simpleserial-aes\` and run
 the following command on the command line:
 
 `make PLATFORM=CW308_STM32F0 CRYPTO_TARGET=TINYAES128C`
@@ -344,7 +344,7 @@ want to target:
 
 2\. Link the external files into the project. To do this, under *File \>
 Import*, select *File System*. In the
-\`chipwhisperer\\hardware\\victims\\firmware\` directory, select all of
+\`chipwhisperer\\firmware\\mcu\` directory, select all of
 the relevant files and folders (Makefile in base folder, Makefile in HAL
 folder, STM32Fx HAL folder).:
 

@@ -69,7 +69,7 @@ capacitors C5/C6/C7/C8 are DNM, as they will weaken leakage on devices with a 3.
 
 * See note above about setting switch SW1 to route correct power to the target device.
 
-* General usage information is available on the [STM32Fx target board documentation page](../CW308T-STM32F/README.md).
+* General usage information is available on the [STM32Fx target board documentation page](../CW308T_STM32F/README.md).
 
 ### Schematic
 

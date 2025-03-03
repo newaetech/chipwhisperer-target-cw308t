@@ -29,7 +29,7 @@ called from the [programmer interface](https://github.com/newaetech/chipwhispere
 
 If using the Jupyter notebooks simplify specify the target as `CW308_NEORV32`. This will:
 
-1. Use the [neorv32 HAL](https://github.com/newaetech/chipwhisperer/tree/develop/hardware/victims/firmware/hal/neorv32).
+1. Use the [neorv32 HAL](https://github.com/newaetech/chipwhisperer/tree/develop/firmware/mcu/hal/neorv32).
 2. Use a `riscv32-unknown-elf-gcc` or `riscv64-unknown-elf-gcc` compiler (the 64-bit compiler normally can build for `rv32i` target we need).
 3. Use the `cw.programmers.NEORV32Programmer` interface.
 

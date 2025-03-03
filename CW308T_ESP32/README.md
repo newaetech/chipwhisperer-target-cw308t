@@ -61,8 +61,8 @@ SST26VF016BT-104I/SN did not work.
 ## Example Application
 
 An example application is provided in the GIT repository in the
-[firmware/esp32](https://github.com/newaetech/chipwhisperer/tree/develop/hardware/victims/firmware/esp32)
-directory. Note this hasn't yet been integrated into the full build
+[firmware/esp32](https://github.com/newaetech/chipwhisperer/tree/develop/firmware/mcu/chipwhisperer-esp32)
+submodule. Note this hasn't yet been integrated into the full build
 system. This application uses hardware AES.
 
 ---
