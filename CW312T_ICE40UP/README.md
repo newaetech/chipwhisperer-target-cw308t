@@ -67,7 +67,7 @@ This uses the `neorv32_exe.bin` name that the neorv makefiles build. It also pro
 
 The board is part of the [neorv32-setups](https://github.com/stnolting/neorv32-setups) supported targets. To rebuild it:
 
-* Install the toolchain (described [here](https://github.com/stnolting/neorv32-setups/tree/main/osflow#Prerequisites)).
+* Install the toolchain (described [here](https://github.com/stnolting/neorv32-setups/tree/main/osflow#prerequisites)).
 * Checkout [neorv32-setups](https://github.com/stnolting/neorv32-setups)
 * Run `make BOARD=CW312iCE40 MinimalBoot`
 

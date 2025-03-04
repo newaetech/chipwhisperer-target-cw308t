@@ -42,7 +42,7 @@ including:
 Since it's a Cortex-M23 core, it's also got Arm TrustZone-M.
 
 For a full list of security features see the product family data
-sheet\[1\]
+sheet[^1].
 
 ---
 
@@ -50,7 +50,7 @@ sheet\[1\]
 
 The SAML10/11 family implements a serial bootloader. Usage of this
 bootloader is not detailed in the data sheet, for usage information see
-Microchip Application note AN2699\[2\]. This bootloader doesn't have a
+Microchip Application note AN2699[^2]. This bootloader doesn't have a
 driver in ChipWhisperer, but one could be added.
 
 Serial Wire Debug (SWD) is also supported for programming and debugging
@@ -64,5 +64,5 @@ applications.
 
 ---
 
-1.  <http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-L10L11%20Family-DataSheet%20-%20DS60001513B.pdf>
-2.  <http://ww1.microchip.com/downloads/en/AppNotes/00002699A-UART%20Bootloader%20for%20SAM%20L10%20%20SAM%20L11.pdf>
+[^1]:  <https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-L10-L11-Family-Data-Sheet-DS60001513.pdf>
+[^2]:  <https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ApplicationNotes/ApplicationNotes/AN2699-UART-Bootloader-for-SAM-L10-L11-DS00002699B.pdf>

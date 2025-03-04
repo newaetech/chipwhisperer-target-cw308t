@@ -7,7 +7,7 @@ The device incorporates a 32-bit ARM Cortex M4F Microcontroller core
 with closely-coupled SRAM for code and data. A secure bootloader is
 used to download the custom firmware image from the system’s shared SPI
 Flash device, thereby allowing system designers to customize the
-device’s behavior.\[1\]
+device’s behavior[^1].
 
 The CW308T-CEC1702 incorporates the main chip with a 16MB SPI flash chip
 and a bi-directional SPI Buffer. The target board has standard power
@@ -181,14 +181,14 @@ memory into RAM and directly into RAM over JTAG.
 
 ### **Programming the SPI Flash**
 
-The [SST26VF016B](http://ww1.microchip.com/downloads/en/DeviceDoc/20005262C.pdf) flash chip on the target board can be programmed by an SPI programmer
+The [SST26VF016B](https://ww1.microchip.com/downloads/en/DeviceDoc/20005262D.pdf) flash chip on the target board can be programmed by an SPI programmer
 attached to the SPI pins of the CW308. To program the chip, the nRST
 chip must be pulled to ground by holding the nRST button down or by
 connecting a jumper to J8 on the CW308. Additionally, the PDIC pin must
 be driven high during the programming process to enable communication
 through a buffer chip.
 
-The [SST26VF016B](http://ww1.microchip.com/downloads/en/DeviceDoc/20005262C.pdf) flash chip uses global block protection that must be disabled before
+The [SST26VF016B](https://ww1.microchip.com/downloads/en/DeviceDoc/20005262D.pdf) flash chip uses global block protection that must be disabled before
 every write operation. This is done by sending the command code **98**
 to the chip before erasing or writing to the device. This can be done by
 configuring a custom transaction in your flash programming software.
@@ -198,7 +198,7 @@ Phase Flash Center software and the Aardvark I<sup>2</sup>C/SPI Host
 adapter. Additionally, a [Total Phase Flash Center](https://www.totalphase.com/products/flash-center/) script is
 provided with the firmware for additional reference. See the
 [SST26VF016B data
-sheet](http://ww1.microchip.com/downloads/en/DeviceDoc/20005262C.pdf)
+sheet](https://ww1.microchip.com/downloads/en/DeviceDoc/20005262D.pdf)
 and the manual for your SPI flash program for more details.
 
 | **Parameter**                     | **Value**                                 |
@@ -313,17 +313,13 @@ this:
 
 ## Useful Links
 
-  - [CEC1702
-    Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/00002207C.pdf)
-  - [CEC1702
-    Errata](http://ww1.microchip.com/downloads/en/DeviceDoc/80000726C.pdf)
+  - [Microchip documents](https://www.microchip.com/en-us/product/cec1702)
   - [Aardvark I2C/SPI
     Programmer](https://www.totalphase.com/products/aardvark-i2cspi/)
   - [mikroC PRO for ARM IDE](http://www.mikroe.com/mikroc/arm)
-  - [SST26VF016B Flash
-    Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/20005262C.pdf)
+  - [SST26VF016B Flash Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/20005262D.pdf)
 
 ---
 
 
-1.  <http://ww1.microchip.com/downloads/en/DeviceDoc/00002207B.pdf>
+[^1]: <http://ww1.microchip.com/downloads/en/DeviceDoc/00002207B.pdf>

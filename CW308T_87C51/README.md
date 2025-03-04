@@ -54,7 +54,7 @@ Useful references:
   - [Intel 8xC51RA,RB,RC
     Datasheet](http://media.digikey.com/pdf/Data%20Sheets/Intel%20PDFs/8xC51RA,RB,RC.pdf)
   - [NXP 8XC51RA+/RB+
-    Datasheet](http://www.nxp.com/documents/data_sheet/8XC54_51FX_51RX.pdf)
+    Datasheet](https://www.nxp.com/docs/en/data-sheet/8XC51_8XC52.pdf)
 
 NOTE: The Intel datasheet is fairly short (20 pages) and does not
 include full details of the programming. This can be found in the NXP
@@ -178,7 +178,7 @@ flags are:
     RAM saver\!
 
 Note that SDCC has [not completely
-implemented](http://sdcc.sourceforge.net/mediawiki/index.php/Standard_compliance)
+implemented](https://sourceforge.net/p/sdcc/wiki/Standard%20Compliance/)
 the ISO C99/C11 standards. One very noticeable change is that SDCC does
 not allow variables declarations to be intermingled with code. That is,
 the following will not compile:
@@ -209,8 +209,8 @@ big issues:
     piece of firmware does AES over SimpleSerial in this much space\!
 
 **Programmer**: To write a program into the code EPROM, an EPROM
-programmer is needed. We used a [MiniPro TL866
-programmer](http://minipro.txt.si/index.php?title=Main_Page) along with
+programmer is needed. We used a MiniPro TL866
+programmer along with
 their free software. However, any programmer compatible with the 87C51
 should be fine.
 

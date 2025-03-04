@@ -21,7 +21,7 @@ Two CAN ports are connected out, along with various I/O. The ENGCLK output is av
 
 * [Buy MPC5777C on Mouser](https://www.mouser.com/Search/Refine?Keyword=NAE-CW308T-MPC5777C)
 * [Buy MPC5676R on Mouser](https://www.mouser.com/Search/Refine?Keyword=NAE-CW308T-MPC5676R)
-* [Download Schematic](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/master/CW308T_MPC5Y/NAE-CW308T-MPC5Y.PDF)
+* [Download Schematic](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/main/CW308T_MPC5Y/NAE-CW308T-MPC5Y.PDF)
 
 ## Specifications 
 
@@ -91,4 +91,4 @@ S32DS tools. The following shows the required command line:
 
 ## Schematic
 
-* [Download Schematic](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/master/CW308T_MPC5Y/NAE-CW308T-MPC5Y.PDF)
+* [Download Schematic](https://github.com/newaetech/chipwhisperer-target-cw308t/raw/main/CW308T_MPC5Y/NAE-CW308T-MPC5Y.PDF)
