@@ -62,7 +62,5 @@ applications.
 
 ![](Images/saml11-sch.png)
 
----
-
 [^1]:  <https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-L10-L11-Family-Data-Sheet-DS60001513.pdf>
 [^2]:  <https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ApplicationNotes/ApplicationNotes/AN2699-UART-Bootloader-for-SAM-L10-L11-DS00002699B.pdf>

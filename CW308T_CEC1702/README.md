@@ -319,7 +319,5 @@ this:
   - [mikroC PRO for ARM IDE](http://www.mikroe.com/mikroc/arm)
   - [SST26VF016B Flash Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/20005262D.pdf)
 
----
-
 
 [^1]: <http://ww1.microchip.com/downloads/en/DeviceDoc/00002207B.pdf>

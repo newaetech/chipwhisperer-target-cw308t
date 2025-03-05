@@ -59,7 +59,7 @@ default the CW308 board attempts to provide power for these pins, but
 the voltage may not be high enough to cause the internal regulator to
 disable itself. In this case you can use the VADJ regulator to ensure
 the internal regulator is disabled. See 
-[Targets with Internal Regulators](../../Tips%20and%20Tricks.md#targets-with-internal-regulators)
+[Targets with Internal Regulators](../../cw_tips_tricks/advanced_usage/regulators.md)
 for details.
 
 ### **Pin-outs across TQFP Devices**
