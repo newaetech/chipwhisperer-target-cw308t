@@ -45,6 +45,7 @@ FPGA target area of the chipwhisperer repository
 [here](https://github.com/newaetech/chipwhisperer/tree/develop/firmware/fpgas).
 
 ## Example Soft Cores
+(ibex)=
 ### 1. Ibex
 We also provide a bitfile for a pre-built 
 [RISC-V Ibex core](https://github.com/lowRISC/ibex-demo-system).
